@@ -15,3 +15,9 @@ blockquote{
 img{
     cursor: pointer;
 }
+button{
+    border: none;
+    border-radius: 15px;
+    color: #ffe1a8;
+    background-color: #723d46;
+}
