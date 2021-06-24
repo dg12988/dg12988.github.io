@@ -16,8 +16,7 @@ blockquote {
   border: none;
   border-radius: 10px;
   font-size: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
@@ -32,8 +31,7 @@ blockquote {
   border: none;
   border-radius: 10px;
   font-size: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
@@ -44,7 +42,9 @@ blockquote {
 }
 
 #DougThumbnail{
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
 }
 
   
