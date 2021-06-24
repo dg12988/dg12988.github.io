@@ -14,22 +14,20 @@ blockquote {
 
 #contactButton {
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
+  height: 25px;
+  width: 50px;
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
   display: inline;
 }
-#contactButton:hover {
-  border: none;
-  border-radius: 15px;
-  color: #ffe1a8;
-  background-color: #723d46;
-  cursor: pointer;
-}
+
 #resumeButton {
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
+  height: 25px;
+  width: 50px;
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
