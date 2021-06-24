@@ -15,7 +15,7 @@ blockquote {
 #contactButton {
   border: none;
   border-radius: 10px;
-  font-size: 35px;
+  font-size: 25px;
   padding: 10px;
   color: #ffe1a8;
   background-color: #723d46;
@@ -28,7 +28,7 @@ blockquote {
 #resumeButton {
   border: none;
   border-radius: 10px;
-  font-size: 35px;
+  font-size: 25px;
   padding: 10px;
   color: #ffe1a8;
   background-color: #723d46;
@@ -36,15 +36,10 @@ blockquote {
 
 
 }
-.hoverButton {
-    transition: all 1s ease;
 
-   
-  }
-.hoverButton :hover{
-    background-color: blue;
-   
-  }
+#DougThumbnail{
+    padding: 25px;
+}
 
   
 
