@@ -15,9 +15,28 @@ blockquote{
 img{
 position: fixed;
 
- 
+transition: all 1s ease-out;
 }
-button{
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+#contactButton{
+    border: none;
+    border-radius: 15px;
+    color: #ffe1a8;
+    background-color: #723d46;
+    cursor: pointer;
+    display:inline;
+}
+#contactButton:hover{
+    border: none;
+    border-radius: 15px;
+    color: #ffe1a8;
+    background-color: #723d46;
+    cursor: pointer;
+}
+#resumeButton{
     border: none;
     border-radius: 15px;
     color: #ffe1a8;
