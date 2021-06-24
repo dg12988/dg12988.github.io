@@ -21,14 +21,14 @@
     alt="DougThumbnail"
     id="DougThumbnail"
   />
-    <button id="resumeButton" onclick="location.href='https://google.com';" value="Go to Google">
+    <button id="resumeButton"  onmouseenter="flipImage()" onclick="location.href='https://google.com';" value="Go to Google">
       SEE MY RESUME
     </button>
     <script>function flipImage(){
         console.log(event.target);
-        
+     
         document.getElementById("DougThumbnail").style="transition: all 1s ease; transform: scaleX(-1);-webkit-transform: scaleX(-1);"
-
+   
     }</script>
   </body>
 </html>
