@@ -21,6 +21,8 @@ blockquote {
   background-color: #723d46;
   cursor: pointer;
   display: inline;
+
+  transition: color 1s ease-out;
 }
 
 #resumeButton {
@@ -31,12 +33,14 @@ blockquote {
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
-}
-button{
-    transition: color 1s ease-out;
-    
+
+  transition: color 1s ease-out;
 }
 
-button :hover{
+#contactButton :hover{
+    color: blue;  
+  }
+  
+#resumeButton  :hover{
   color: blue;  
 }
