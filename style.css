@@ -27,7 +27,7 @@ blockquote {
   color: #ffe1a8;
   background-color: #723d46;
   cursor: pointer;
-
+  display: inline;
 
   font-family: "Source Sans Pro", sans-serif;
 }
