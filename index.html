@@ -11,7 +11,12 @@
       Nodejs / HTML / CSS**. I am currently seeking new employment! Please check
       out my resume or reach out and contact me below.
     </p>
-    <button onclick="location.href='https://google.com';" value="Go to Google">
+    <script>document.getElementById("contactButton").innerHTML = "You have hovered mouse over me";</script>
+    <script>function flipImage(){
+        document.getElementById("contactButton").style="transform: scaleX(-1);"
+
+    }</script>
+    <button id="contactButton" onmouseenter="flipImage()" onclick="location.href='https://google.com';" value="Go to Google">
       CONTACT ME
     </button>
     <img
