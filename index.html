@@ -18,37 +18,40 @@
     />
   </head>
   <body>
-    <h1>Hello, I'm Doug</h1>
-    <p>
-      An efficient and passionate Front End Software Developer with experience
-      in the construction of Web applications using Javascript / Angular /
-      Nodejs / HTML / CSS.<br>I am currently seeking new employment! Please check
-      out my resume or reach out and contact me below.
-    </p>
-
-    <button
-      id="contactButton"
-      class="hoverButton"
-      onmouseenter="flipImage()"
-      onclick="location.href='https://google.com';"
-      value="Go to Google"
-    >
-      Contact Me
-    </button>
-    <img
-      src="https://dg12988.github.io/assets/DougHead.png"
-      height="100px;"
-      alt="DougThumbnail"
-      id="DougThumbnail"
-    />
-    <button
-      id="resumeButton"
-      class="hoverButton"
-      onmouseenter="flipImage()"
-      onclick="location.href='https://google.com';"
-      value="Go to Google"
-    >
-      See My Résumé
-    </button>
+    <div class="flexChild">
+      <h1>Hello, I'm Doug</h1>
+      <p>
+        An efficient and passionate Front End Software Developer with experience
+        in the construction of Web applications using Javascript / Angular /
+        Nodejs / HTML / CSS.<br />I am currently seeking new employment! Please
+        check out my resume or reach out and contact me below.
+      </p>
+    </div>
+    <div class="flexChild">
+      <button
+        id="contactButton"
+        class="hoverButton"
+        onmouseenter="flipImage()"
+        onclick="location.href='https://google.com';"
+        value="Go to Google"
+      >
+        Contact Me
+      </button>
+      <img
+        src="https://dg12988.github.io/assets/DougHead.png"
+        height="100px;"
+        alt="DougThumbnail"
+        id="DougThumbnail"
+      />
+      <button
+        id="resumeButton"
+        class="hoverButton"
+        onmouseenter="flipImage()"
+        onclick="location.href='https://google.com';"
+        value="Go to Google"
+      >
+        See My Résumé
+      </button>
+    </div>
   </body>
 </html>
