@@ -32,3 +32,11 @@ blockquote {
   background-color: #723d46;
   cursor: pointer;
 }
+button{
+    transition: color 1s ease-out;
+    
+}
+
+button :hover{
+  color: blue;  
+}
