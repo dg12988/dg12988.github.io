@@ -1,38 +1,36 @@
-body{
-    background-color: #472d30;
+body {
+  background-color: #472d30;
 }
 
-h1{
-    color: #e26d5c;
+h1 {
+  color: #e26d5c;
 }
-p{
-   color: #c9cba3;
+p {
+  color: #c9cba3;
 }
-blockquote{
-    background-color: #472d30;
- 
+blockquote {
+  background-color: #472d30;
 }
 
-
-#contactButton{
-    border: none;
-    border-radius: 15px;
-    color: #ffe1a8;
-    background-color: #723d46;
-    cursor: pointer;
-    display:inline;
+#contactButton {
+  border: none;
+  border-radius: 15px;
+  color: #ffe1a8;
+  background-color: #723d46;
+  cursor: pointer;
+  display: inline;
 }
-#contactButton:hover{
-    border: none;
-    border-radius: 15px;
-    color: #ffe1a8;
-    background-color: #723d46;
-    cursor: pointer;
+#contactButton:hover {
+  border: none;
+  border-radius: 15px;
+  color: #ffe1a8;
+  background-color: #723d46;
+  cursor: pointer;
 }
-#resumeButton{
-    border: none;
-    border-radius: 15px;
-    color: #ffe1a8;
-    background-color: #723d46;
-    cursor: pointer;
+#resumeButton {
+  border: none;
+  border-radius: 15px;
+  color: #ffe1a8;
+  background-color: #723d46;
+  cursor: pointer;
 }
