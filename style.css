@@ -37,7 +37,7 @@ blockquote {
   transition: color 1s ease-out;
 }
 
-#contactButton :hover{
+button :hover{
     color: blue;  
   }
   
