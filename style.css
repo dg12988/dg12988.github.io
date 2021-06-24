@@ -37,7 +37,7 @@ blockquote {
 
 }
 .hoverButton {
-    transition: background-color 1s ease-out;
+    transition: all 1s ease;
 
    
   }
