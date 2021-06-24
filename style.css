@@ -1,5 +1,7 @@
 body {
   background-color: #472d30;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
@@ -22,9 +24,7 @@ blockquote {
   cursor: pointer;
   display: inline;
 
-  font-family: 'Source Sans Pro', sans-serif;
-
-
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 #resumeButton {
@@ -36,16 +36,11 @@ blockquote {
   background-color: #723d46;
   cursor: pointer;
 
-  font-family: 'Source Sans Pro', sans-serif;
-
-
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#DougThumbnail{
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 25px;
+#DougThumbnail {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 25px;
 }
-
-  
-
