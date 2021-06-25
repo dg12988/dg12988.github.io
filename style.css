@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-  color: #e26d5c;
+  color: #b90504;
   font-size: 50px;
 }
 p {
-  color: #c9cba3;
+  color: #990100;
 }
 blockquote {
   background-color: #472d30;
@@ -25,8 +25,8 @@ blockquote {
   border-radius: 10px;
   font-size: 25px;
   padding: 10px;
-  color: #ffe1a8;
-  background-color: #723d46;
+  color: #e8e8e8;
+  background-color: #333333;
   cursor: pointer;
   display: inline;
 
@@ -38,8 +38,8 @@ blockquote {
   border-radius: 10px;
   font-size: 25px;
   padding: 10px;
-  color: #ffe1a8;
-  background-color: #723d46;
+  color: #e8e8e8;
+  background-color: #333333;
   cursor: pointer;
 
   font-family: "Source Sans Pro", sans-serif;
