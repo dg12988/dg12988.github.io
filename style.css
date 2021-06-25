@@ -19,6 +19,9 @@ p {
 code {
   background-color: #990100;
   color: #e8e8e8;
+  font-size: 25px;
+  border-color: #b90504;
+  border: 3px;
 }
 
 #contactButton {
