@@ -76,7 +76,7 @@ code {
   z-index: 99;
 }
 
-.bounce{
+.bounce:hover{
     animation: bounce 1s ease-out;
 }
 
