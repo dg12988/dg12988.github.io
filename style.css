@@ -16,8 +16,9 @@ h1 {
 p {
   color: #990100;
 }
-blockquote {
-  background-color: #472d30;
+code {
+  background-color: #990100;
+  color: #e8e8e8;
 }
 
 #contactButton {
