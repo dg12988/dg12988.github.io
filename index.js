@@ -12,3 +12,7 @@ function flipImage() {
       "transition: all 1s ease; transform: scaleX(1);-webkit-transform: scaleX(1);";
   }
 }
+
+function openDialog(){
+    document.body.style = "background-color: black; opacity: 8";
+}
