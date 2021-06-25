@@ -2,7 +2,7 @@ body {
   background-color: #472d30;
   font-family: "Roboto", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 35px;
 
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +11,7 @@ body {
 
 h1 {
   color: #e26d5c;
+  font-size: 50px;
 }
 p {
   color: #c9cba3;
