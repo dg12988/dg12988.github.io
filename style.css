@@ -75,3 +75,24 @@ code {
   text-align: center;
   z-index: 99;
 }
+
+.bounce{
+    animation: bounce 1s ease-out;
+}
+
+
+
+@keyframes bounce{
+    20%,50%,80%,to{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-30px);
+    }
+    70%{
+        transform: translateY(-15px);
+    }
+    90%{
+        transform: translateY(-4px);
+    }
+}
