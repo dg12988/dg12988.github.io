@@ -75,21 +75,24 @@ code {
   text-align: center;
   z-index: 99;
 }
-
-.bounce:hover{
-    animation: bounce 1s ease-out;
-}
-
 .headerSettings{
-  transition: width 2s, height 4s;
-  width: 100px;
-  height: 100px;
-}
+
+    transition: width 2s, height 4s;
+    width: 100px;
+    height: 100px;
+  
+  
+
 }
 .headerSettings:hover{
   width: 300px;
   height: 300px;
 }
+.bounce:hover{
+    animation: bounce 1s ease-out;
+}
+
+
 
 @keyframes bounce{
     20%,50%,80%,to{
