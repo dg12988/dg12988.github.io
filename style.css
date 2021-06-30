@@ -80,7 +80,12 @@ code {
     animation: bounce 1s ease-out;
 }
 
-
+.headerSettings{
+  transition: all 1s ease; 
+}
+.headerSettings:hover{
+transform: scaleX(1);-webkit-transform: scaleX(1);
+}
 
 @keyframes bounce{
     20%,50%,80%,to{
