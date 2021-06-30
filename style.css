@@ -81,10 +81,14 @@ code {
 }
 
 .headerSettings{
-  transition: all 1s ease; 
+  transition: width 2s, height 4s;
+  width: 100px;
+  height: 100px;
+}
 }
 .headerSettings:hover{
-transform: scaleX(1);-webkit-transform: scaleX(1);
+  width: 300px;
+  height: 300px;
 }
 
 @keyframes bounce{
