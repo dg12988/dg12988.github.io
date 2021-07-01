@@ -92,9 +92,8 @@ code {
     animation: bounce 1s ease-out;
 }
 #mainBanner{
-  transition: width 2s, height 4s;
-  width: 500px;
-  height: 100px;
+transition: all .8s ease;
+
 }
 
 
