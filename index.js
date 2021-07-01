@@ -1,5 +1,5 @@
 function loadOperations(){
-  document.getElementById("mainBanner").style = "translateX(250px) "
+  document.getElementById("mainBanner").style = "width: 1250px;height: 100px;"
 }
 function flipImage() {
 
