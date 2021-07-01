@@ -1,5 +1,5 @@
 function loadOperations(){
-  document.getElementById("mainBanner").style = "width: 300px;height: 300px;"
+  document.getElementById("mainBanner").style = "width: 1000px;height: 300px;"
 }
 function flipImage() {
 

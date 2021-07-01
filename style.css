@@ -93,7 +93,7 @@ code {
 }
 #mainBanner{
   transition: width 2s, height 4s;
-  width: 100px;
+  width: 500px;
   height: 100px;
 }
 
