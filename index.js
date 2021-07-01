@@ -1,3 +1,6 @@
+function loadOperations(){
+  document.getElementById("mainBanner").style = "width: 300px;height: 300px;"
+}
 function flipImage() {
 
   if (event.target.id === "resumeButton"){
@@ -16,3 +19,4 @@ function flipImage() {
 function openDialog(){
     document.getElementsByClassName("dialog").style = "display: block;";
 }
+

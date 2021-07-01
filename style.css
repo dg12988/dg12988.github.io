@@ -91,7 +91,11 @@ code {
 .bounce:hover{
     animation: bounce 1s ease-out;
 }
-
+#mainBanner{
+  transition: width 2s, height 4s;
+  width: 100px;
+  height: 100px;
+}
 
 
 @keyframes bounce{
