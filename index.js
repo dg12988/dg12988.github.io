@@ -23,6 +23,7 @@ function openDialog(){
  element.style.opacity = 0.9;
 
  var temp = document.getElementById('dialog');
+ temp.style.zIndex = 100;
  temp.style.opacity = 1;
 
 
