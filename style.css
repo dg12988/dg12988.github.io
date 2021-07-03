@@ -80,7 +80,7 @@ code {
     animation: bounce 1.5s ease-out;
 }
 .appBlurb{
-  font-size: 10px;
+  font-size: 14px;
 }
 #mainBanner{
   transition: width 2s, height 2s;
