@@ -78,8 +78,8 @@ code {
  
   z-index: -1;
 
-  transition: opacity 1s ease-in;
-  -webkit-transition: opacity 1s ease-in;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
 }
 #dialog {
   width: 500px;
