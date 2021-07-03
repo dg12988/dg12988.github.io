@@ -87,7 +87,9 @@ code {
   width: 650px;
   height: 50px;
 }
-
+.sectionHead{
+  text-align: center;
+}
 
 
 @keyframes bounce{
