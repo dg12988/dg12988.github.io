@@ -30,9 +30,10 @@ function openDialog(){
 
 function clearDialog(){
   var element = document.getElementById('dialogWrapper');
-
-  element.style.zIndex = -1;
+  
   element.style.opacity = 0;
-
+  setTimeout(() => {
+    element.style.zIndex = -1;
+  }, 500);
 }
 
