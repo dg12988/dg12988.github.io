@@ -18,8 +18,7 @@ function flipImage() {
 
 function openDialog(){
 
-  document.body.style.backgroundColor="black";
-  document.body.style.opacity="opacity: .8;";
-    document.getElementsByClassName("dialog").style = "display: block;";
+    document.getElementsById("dialogWrapper").style = "display: block;";
+    document.getElementsById("dialog").style = "display: block;";
 }
 
