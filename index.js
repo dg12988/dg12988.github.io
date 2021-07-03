@@ -18,7 +18,8 @@ function flipImage() {
 
 function openDialog(){
 
-    document.getElementById("dialogWrapper").style = "opacity: .9;";
+ var element = document.getElementById("dialogWrapper");
+ element.style.opacity = "0.9;"
 
 
 
@@ -26,6 +27,7 @@ function openDialog(){
 }
 
 function clearDialog(){
-  document.getElementById("dialogWrapper").style = "opacity: 0;";
+  var element = document.getElementById("dialogWrapper");
+  element.style.opacity = "0;"
 }
 
