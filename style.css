@@ -77,6 +77,9 @@ code {
   bottom: 0;
  
   z-index: 98;
+
+  transition: visibility 0.3s ease;
+  -webkit-transition: visibility 0.3s ease;
 }
 #dialog {
   width: 500px;
