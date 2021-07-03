@@ -18,7 +18,7 @@ function flipImage() {
 
 function openDialog(){
 
-    document.getElementsById("dialogWrapper").style = "display: block;";
-    document.getElementsById("dialog").style = "display: block;";
+    document.getElementById("dialogWrapper").style = "display: block;";
+    document.getElementById("dialog").style = "display: block;";
 }
 
