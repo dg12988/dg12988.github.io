@@ -25,3 +25,7 @@ function openDialog(){
 
 }
 
+function clearDialog(){
+  document.getElementById("dialogWrapper").style = "visibility: hidden;";
+}
+
