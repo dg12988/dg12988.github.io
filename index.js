@@ -20,6 +20,7 @@ function openDialog(){
 
  var element = document.getElementById('dialogWrapper');
  element.style.opacity = "0.9;"
+ element.style.zIndex = "99";
 
 
 
@@ -29,5 +30,6 @@ function openDialog(){
 function clearDialog(){
   var element = document.getElementById('dialogWrapper');
   element.style.opacity = "0;"
+  element.style.zIndex = "-1";
 }
 
