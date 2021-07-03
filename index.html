@@ -19,7 +19,17 @@
   </head>
   <body onload="loadOperations()">
     <div id="dialogWrapper" onclick="clearDialog()">
-      <div id="dialog"></div>
+      <div id="dialog">
+        <form action=”mailto:doug.goldberg@me.com.com”
+         method=”POST”
+         enctype=”multipart/form-data”
+         name=”EmailForm”>
+             Name:<br>
+            <input type=”text” size=”19″ name=”ContactName”><br><br>
+            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+        </textarea><br><br> <input type=”submit” value=”Submit”>
+      </form>
+      </div>
       <p>Click To Close</p>
   </div>
     <div type="module" class="flexChild">
