@@ -17,7 +17,8 @@ function flipImage() {
 }
 
 function openDialog(){
-  document.getElementsByTagName("body").style="background-color:black;opacity: .8;";
+  console.log("Test");
+  document.getElementsByTagName("html").style="background-color:black;opacity: .8;";
     document.getElementsByClassName("dialog").style = "display: block;";
 }
 
