@@ -64,7 +64,7 @@ code {
 .dialog {
   width: 500px;
   height: 500px;
-  background-color: black;
+  background-color: white;
   opacity: 0.8;
   display: none;
   position: absolute;
