@@ -4,12 +4,9 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
 
-
-}
-.introWrapper{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
 }
 a{
     text-decoration: none;
