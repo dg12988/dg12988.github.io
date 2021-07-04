@@ -114,6 +114,8 @@ code {
   text-align: center;
 }
 
+.cards {   min-height: 100vh;  display: flex;  flex-wrap: wrap; flex: 0 0 250px;  align-items: center; justify-content: center;}
+
 
 @keyframes bounce{
     20%,50%,80%,to{
