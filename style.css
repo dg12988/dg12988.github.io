@@ -6,6 +6,11 @@ body {
 
 
 }
+.introWrapper{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 a{
     text-decoration: none;
 }
