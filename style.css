@@ -102,6 +102,7 @@ code {
 }
 .appBlurb{
   font-size: 20px;
+  width: 25%;
 }
 #mainBanner{
   transition: width 2s, height 2s;
