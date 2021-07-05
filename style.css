@@ -70,15 +70,7 @@ body {
 a{
     text-decoration: none;
 }
-button{
-  
-  padding: 20px;
-  border-radius: 5px;
-  
-  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
-  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
-}
+
 p {
   color: #990100;
 }
@@ -90,30 +82,24 @@ code {
   border: 3px;
 }
 
-#contactButton {
-  border: none;
-  border-radius: 10px;
-  font-size: 25px;
+button {
+  border: none; 
+
   padding: 10px;
   color: white;
   background-color: #333333;
   cursor: pointer;
   display: inline;
 
-  font-family: "Source Sans Pro", sans-serif;
-}
+  border-radius: 5px;
 
-#resumeButton {
-  border: none;
-  border-radius: 10px;
-  font-size: 25px;
-  padding: 10px;
-  color: #e8e8e8;
-  background-color: #333333;
-  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 
   font-family: "Source Sans Pro", sans-serif;
 }
+
 
 #DougThumbnail {
   padding-left: 25px;
