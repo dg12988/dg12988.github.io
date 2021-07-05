@@ -72,13 +72,13 @@ function openDialog(ev){
  dialog.style.zIndex = 100;
  dialog.style.opacity = 1;
 console.log(ev);
-if(ev.target.id= "contactButton"){
-  dialog.style.height = "25%";
-  dialog.style.width = "25%";
-  dialog.style.top = "15%";
+// if(ev.target.id= "contactButton"){
+//   dialog.style.height = "25%";
+//   dialog.style.width = "25%";
+//   dialog.style.top = "15%";
 
-  console.log("contact");
-}
+//   console.log("contact");
+// }
 
 if(ev.target.id = "mappingDetails"){
   dialog.style.height = "80%";
