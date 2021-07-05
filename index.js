@@ -22,9 +22,9 @@ function startSlider(){
 
 
 setInterval(() => {
-  card1.style.opacity = .3;
-  card2.style.opacity = .3;
-  card3.style.opacity = .3;
+  card1.style.opacity = .4;
+  card2.style.opacity = .4;
+  card3.style.opacity = .4;
 
  
 
