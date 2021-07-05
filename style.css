@@ -282,6 +282,11 @@ code {
 	background: #2EBC99;
 }
 
+.closeButton{
+  position: absolute;
+  left: 100%;
+}
+
 @keyframes bounce{
     20%,50%,80%,to{
         transform: translateY(0);
