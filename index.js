@@ -14,82 +14,13 @@ window.addEventListener('load', function () {
 
   var n = 0;
 
-
-
-setInterval(() => {
-  card1.style.opacity = .3;
-  card2.style.opacity = .3;
-  card3.style.opacity = .3;
-
- 
-
-    setTimeout(() => {
-      switch (n) {
-        case 1:
-       card1.innerHTML = tempC3;
-         card2.innerHTML = tempC1;
-           card3.innerHTML = tempC2;
-          break;
-        case 2:
-          card1.innerHTML = tempC2;
-          card2.innerHTML = tempC3;
-          card3.innerHTML = tempC1;
-          break;
-        default:
-          n = 0;
-          card1.innerHTML = tempC1;
-          card2.innerHTML = tempC2;
-          card3.innerHTML = tempC3;
-      }
-
-      card1.style.opacity = .9;
-      card2.style.opacity = 1;
-      card3.style.opacity = .9;
-    }, 250);
-
-      n++;
-
-   
-    }, 10000);
-
-    setTimeout(() => {
-      document.getElementById('introSection').style.opacity = 1;
-
-    
-     
-    }, 500);    
-
-setTimeout(() => {
-
- document.getElementById('mainSection').style.opacity = 1;
-
- 
-}, 1500);    
-   
-})
-
-
-
-function startSlider(){
-  // Start Slider
-  var card1 = document.getElementById('card1');
-  var card2 = document.getElementById('card2');
-  var card3 = document.getElementById('card3');
-
-  var tempC1 = card1.innerHTML;
-  var tempC2 = card2.innerHTML;
-  var tempC3 = card3.innerHTML;
-
-  var n = 0;
-
-
   let appArray = [n, card1, card2, card3];
   let siteArray = [n, card4, card5, card6];
 
 setInterval(() => {
 
 if(n < 2){
-
+  console.log(document.getElementById('cards'));
   n++;
 }
 else{
@@ -145,8 +76,12 @@ setTimeout(() => {
  document.getElementById('mainSection').style.opacity = 1;
 
  
-}, 1500);    
-}
+}, 1500);       
+   
+})
+
+
+
 
 function flipImage() {
 
