@@ -17,9 +17,9 @@ window.addEventListener('load', function () {
 
 
 setInterval(() => {
-  card1.style.opacity = .2;
-  card2.style.opacity = .2;
-  card3.style.opacity = .2;
+  card1.style.opacity = .4;
+  card2.style.opacity = .4;
+  card3.style.opacity = .4;
 
  
 
