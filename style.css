@@ -42,7 +42,9 @@ h2 {
   color: #b90504;
  
 }
-
+header{
+  text-align: center;
+}
 body {
   background-color: #e8e8e8;
   font-family: "Roboto", sans-serif;
