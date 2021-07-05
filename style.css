@@ -298,7 +298,7 @@ code {
 }
 
 .rotate {
-  animation: flipX 3s infinite;
+  animation: flipX 4s infinite ease-out;
   
 }
 
