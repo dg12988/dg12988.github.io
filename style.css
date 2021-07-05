@@ -160,8 +160,8 @@ code {
   -webkit-transition: opacity .5s ease-in;
 }
 #dialog {
-  width: 500px;
-  height: 500px;
+  width: 20%;
+  height: 30%;
   background-color: white;
   opacity: 1;
   border-radius: 5px;
@@ -284,7 +284,7 @@ code {
 
 .closeButton{
   position: absolute;
-  left: 95%;
+  left: 90%;
   top: 1%;
 
   color: white;
