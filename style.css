@@ -57,12 +57,25 @@ body {
   
 
 }
-#firstCard{
+#firstLastCard{
   background-color: #333333;
   color:  #e8e8e8;
   border-radius: 5px;
 
   height: 100%;
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+#middleCard{
+  background-color: #333333;
+  color:  #e8e8e8;
+  border-radius: 5px;
+
+  height: 110%!important;
   transition: opacity .5s ease-in;
   -webkit-transition: opacity .5s ease-in;
 
