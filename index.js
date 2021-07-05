@@ -27,30 +27,7 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-
-    setTimeout(() => {
-      switch (n) {
-        case 1:
-       card1.innerHTML = tempC3;
-         card2.innerHTML = tempC1;
-           card3.innerHTML = tempC2;
-          break;
-        case 2:
-          card1.innerHTML = tempC2;
-          card2.innerHTML = tempC3;
-          card3.innerHTML = tempC1;
-          break;
-        default:
-          n = 0;
-          card1.innerHTML = tempC1;
-          card2.innerHTML = tempC2;
-          card3.innerHTML = tempC3;
-      }
-
-      card1.style.opacity = .9;
-      card2.style.opacity = 1;
-      card3.style.opacity = .9;
-    }, 250);
+switchSlider(n);
 
       n++;
 
@@ -70,6 +47,33 @@ setTimeout(() => {
 
  
 }, 1500);    
+}
+
+function switchSlider(n){
+
+  setTimeout((n) => {
+    switch (n) {
+      case 1:
+     card1.innerHTML = tempC3;
+       card2.innerHTML = tempC1;
+         card3.innerHTML = tempC2;
+        break;
+      case 2:
+        card1.innerHTML = tempC2;
+        card2.innerHTML = tempC3;
+        card3.innerHTML = tempC1;
+        break;
+      default:
+        n = 0;
+        card1.innerHTML = tempC1;
+        card2.innerHTML = tempC2;
+        card3.innerHTML = tempC3;
+    }
+
+    card1.style.opacity = .9;
+    card2.style.opacity = 1;
+    card3.style.opacity = .9;
+  }, 250);
 }
 function flipImage() {
 
