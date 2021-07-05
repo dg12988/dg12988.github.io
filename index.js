@@ -75,6 +75,7 @@ function openDialog(ev){
   console.log(ev);
 if(ev.target.value = "mappingDetails"){
   temp.style.height = .8;
+  console.log("test");
 }
 
 
