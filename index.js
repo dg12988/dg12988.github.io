@@ -27,7 +27,7 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-  let cardsArray = switchSlider(n, tempC1, tempC2, tempC3);
+  let cardsArray = Object.assign({},switchSlider(n, tempC1, tempC2, tempC3));
 console.log(cardsArray);
   card1 = cardsArray[1]; 
   card2 = cardsArray[2];
