@@ -2,25 +2,46 @@ function loadOperations(){
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
 
   // Start Slider
-  var card1 = document.getElementById('card1');
-  var card2 = document.getElementById('card2');
-  var card3 = document.getElementById('card3');
-  var cards = document.getElementById('cards');
-console.log(cards);
+  var card1 = document.getElementById('card1').innerHTML;
+  var card2 = document.getElementById('card2').innerHTML;
+  var card3 = document.getElementById('card3').innerHTML;
+
+  var tempC1 = card1;
+  var tempC2 = card2;
+  var tempC3 = card3;
+
   var n = 0;
 
-  setInterval(() => {
-    if(n < 3){
-      
-      n++;
-    }
-    else{
-      n = 0;
-    }
-
+setInterval(() => {
   
-  }, 3000);
-}
+
+    switch (n < 3) {
+      case 0:
+        card1 = tempC1;
+        card2 = tempC2;
+        card3 = tempC3;
+          break;
+      case 1:
+        card1 = tempC3;
+        card2 = tempC1;
+        card3 = tempC2;
+        break;
+      case 2:
+        card1 = tempC2;
+        card2 = tempC3;
+        card3 = tempC1;
+        break;
+      default:
+        n = 0;
+    }
+    
+      n++;
+    }, 3000);
+   
+  
+
+  }
+
 function flipImage() {
 
   if (event.target.id === "resumeButton"){
