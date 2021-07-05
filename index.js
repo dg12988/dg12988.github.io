@@ -5,9 +5,20 @@ function loadOperations(){
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
   var card3 = document.getElementById('card3');
+  var cards = document.getElementById('cards');
+console.log(cards);
+  var n = 0;
 
   setInterval(() => {
-    card2.innerHTML = card3.innerHTML;
+    if(n < 3){
+      
+      n++;
+    }
+    else{
+      n = 0;
+    }
+
+  
   }, 3000);
 }
 function flipImage() {
