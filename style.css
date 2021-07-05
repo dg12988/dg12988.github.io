@@ -161,8 +161,9 @@ code {
 }
 #dialog {
   width: 20%;
-  height: 30%;
-  background-color: white;
+  height: 45%;
+  background-color: #5a7a89;
+  color: white;
   opacity: 1;
   border-radius: 5px;
   position: fixed;
