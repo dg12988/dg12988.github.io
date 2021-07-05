@@ -48,7 +48,7 @@ setInterval(() => {
 setTimeout(() => {
  document.getElementById('mainSection').style.opacity = 1;
  
-}, 3000);    
+}, 1000);    
    
 })
 
