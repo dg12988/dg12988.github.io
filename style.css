@@ -307,8 +307,8 @@ code {
 }
 
 .closeButton{
-  position: fixed;
-  left: 100%;
+  position: absolute;
+  left: 95%;
   top: 1%;
 
   color: white;
