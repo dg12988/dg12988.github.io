@@ -8,7 +8,7 @@ function loadOperations(){
 
   console.log(card2);
   setInterval(() => {
-   card2 = card3;
+   card2.innerHTML = card3.innerHTML;
   }, 3000);
 }
 function flipImage() {
