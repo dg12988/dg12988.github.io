@@ -41,6 +41,10 @@ setInterval(() => {
 
    
     }, 10000);
+
+setTimeout(() => {
+  document.getElementById('mainSection').style = "visibility: visible;"
+}, 5000);    
    
 })
 
