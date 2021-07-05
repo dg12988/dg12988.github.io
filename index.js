@@ -1,4 +1,4 @@
-function loadOperations(){
+window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
 
   // Start Slider
@@ -42,9 +42,7 @@ setInterval(() => {
    
     }, 10000);
    
-
-
-  }
+})
 
 function flipImage() {
 
