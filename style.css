@@ -97,10 +97,7 @@ code {
   margin-bottom: -50px;
 }
 
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
+
 #dialogWrapper {
   width: 100%;
   height: 100%;
