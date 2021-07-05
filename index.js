@@ -27,12 +27,12 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-  let cardsArray =switchSlider(n, tempC1, tempC2, tempC3);
-console.log(cardsArray);
-  card1 = cardsArray[1]; 
-  card2 = cardsArray[2];
-  card3 = cardsArray[3];
-  n = cardsArray[0];
+  let cardsArrayObject = switchSlider(n, tempC1, tempC2, tempC3);
+console.log(cardsArrayObject);
+  card1 = cardsArrayObject.cardsArray[1]; 
+  card2 = cardsArrayObject.cardsArray[2];
+  card3 = cardsArrayObject.cardsArray[3];
+  n = cardsArrayObject.cardsArray[0];
 
   n++;
 
@@ -78,10 +78,11 @@ function switchSlider(n, tempC1, tempC2, tempC3){
     card1.style.opacity = .9;
     card2.style.opacity = 1;
     card3.style.opacity = .9;
-
-    let cardsArray =  Object.assign({},[n, card1.innerHTML,card2.innerHTML,card3.innerHTML]);
-    console.log(cardsArray);
-    return cardsArray;
+    
+    let cardsArray = [n, card1.innerHTML,card2.innerHTML,card3.innerHTML];
+    let cardsArrayObject =  Object.assign({},cardsArray);
+    console.log(cardsArrayObject);
+    return cardsArrayObject;
   }, 250);
 }
 function flipImage() {
