@@ -104,6 +104,10 @@ code {
   display: inline;
 
   font-family: "Source Sans Pro", sans-serif;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
 #resumeButton {
@@ -116,6 +120,10 @@ code {
   cursor: pointer;
 
   font-family: "Source Sans Pro", sans-serif;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
 
 #DougThumbnail {
