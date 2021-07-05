@@ -17,15 +17,13 @@ function loadOperations(){
   card3.style.opacity = .9;
 
 setInterval(() => {
-  card1.style.opacity = .7;
-  card2.style.opacity = .8;
-  card3.style.opacity = .7;
+
 
     switch (n) {
       case 1:
-        card1.innerHTML = tempC3;
-        card2.innerHTML = tempC1;
-        card3.innerHTML = tempC2;
+       fadeIn( card1.innerHTML = tempC3, 1);
+       fadeIn(  card2.innerHTML = tempC1, 1);
+        fadeIn(  card3.innerHTML = tempC2, 1);
         break;
       case 2:
         card1.innerHTML = tempC2;
@@ -85,6 +83,26 @@ function clearDialog(){
   setTimeout(() => {
     element.style.zIndex = -1;
   }, 500);
+}
+
+
+// function to fade in card element
+
+
+function fadeIn(cards, time) {
+  cards.style.opacity = 0;
+
+  var last = +new Date();
+  var tick = function() {
+    cards.style.opacity = +cards.style.opacity + (new Date() - last) / time;
+    last = +new Date();
+
+    if (+cards.style.opacity < 1) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    }
+  };
+
+  tick();
 }
 
 
