@@ -192,7 +192,17 @@ code {
   text-align: center;
 }
 
+#card1{
+  transition: opacity .2s ease;
+}
 
+#card2{
+  transition: opacity .2s ease;
+}
+
+#card3{
+  transition: opacity .2s ease;
+}
 
 
 @keyframes bounce{

@@ -14,12 +14,12 @@ window.addEventListener('load', function () {
 
   var n = 0;
 
-  card1.style.opacity = .9;
-  card2.style.opacity = 1;
-  card3.style.opacity = .9;
+
 
 setInterval(() => {
-
+  card1.style.opacity = 0;
+  card2.style.opacity = 0;
+  card3.style.opacity = 0;
 
     switch (n) {
       case 1:
@@ -38,6 +38,12 @@ setInterval(() => {
         card2.innerHTML = tempC2;
         card3.innerHTML = tempC3;
     }
+
+    setTimeout(() => {
+      card1.style.opacity = .9;
+      card2.style.opacity = 1;
+      card3.style.opacity = .9;
+    }, 1000);
 
       n++;
 
