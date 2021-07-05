@@ -12,13 +12,13 @@ function loadOperations(){
 
   var n = 0;
 
-  card1.style.opacity = 1;
-  card2.style.opacity = .9;
+  card1.style.opacity = .9;
+  card2.style.opacity = 1;
   card3.style.opacity = .9;
 
 setInterval(() => {
-  card1.style.opacity = .8;
-  card2.style.opacity = .7;
+  card1.style.opacity = .7;
+  card2.style.opacity = .8;
   card3.style.opacity = .7;
 
     switch (n) {
@@ -45,8 +45,8 @@ setInterval(() => {
     }, 3000);
    
     setInterval(() => {
-      card1.style.opacity = 1;
-      card2.style.opacity = .9;
+      card1.style.opacity = .9;
+      card2.style.opacity = 1;
       card3.style.opacity = .9;
     }, 4000);
 
