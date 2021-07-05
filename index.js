@@ -21,9 +21,9 @@ setInterval(() => {
 
     switch (n) {
       case 1:
-       fadeIn( (card1.innerHTML = tempC3), 1000);
-       fadeIn(  (card2.innerHTML = tempC1), 1000);
-        fadeIn(  (card3.innerHTML = tempC2), 1000);
+     card1.innerHTML = tempC3;
+       card2.innerHTML = tempC1;
+         card3.innerHTML = tempC2;
         break;
       case 2:
         card1.innerHTML = tempC2;
@@ -85,24 +85,5 @@ function clearDialog(){
   }, 500);
 }
 
-
-// function to fade in card element
-
-
-function fadeIn(cards, time) {
-  cards.style.opacity = 0;
-
-  var last = +new Date();
-  var tick = function() {
-    cards.style.opacity = +cards.style.opacity + (new Date() - last) / time;
-    last = +new Date();
-
-    if (+cards.style.opacity < 1) {
-      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
-    }
-  };
-
-  tick();
-}
 
 
