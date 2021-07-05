@@ -63,15 +63,23 @@ function flipImage() {
 
 function openDialog(ev){
 
- console.log(ev);
+  var element = document.getElementById('dialogWrapper');
+  element.style.zIndex = 99;
+  element.style.opacity = 1;
 
- var element = document.getElementById('dialogWrapper');
- element.style.zIndex = 99;
- element.style.opacity = 1;
-
+  
  var temp = document.getElementById('dialog');
  temp.style.zIndex = 100;
  temp.style.opacity = 1;
+
+  console.log(ev);
+if(ev.target.value = "mappingDetails"){
+  temp.style.height = .8;
+}
+
+
+
+
 
 
 
