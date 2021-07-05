@@ -23,21 +23,13 @@
 
 
     <div id="dialogWrapper">
-      <div id="dialog">
+      <div id="dialog" class="contactStyle">
         <button onclick="clearDialog()">X</button>
         <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
-          <label>
-            Your email:
-            <input type="email" name="_replyto">
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-        
-          <!-- your other form fields go here -->
-        
-          <button type="submit">Send</button>
+          <input type="text" name="field1" placeholder="Your Name" />
+          <input type="email" name="field2" placeholder="Email Address" />
+          <textarea name="field3" placeholder="Type your Message"></textarea>
+          <input type="submit" value="Send" />
     
       </form>
       </div>
