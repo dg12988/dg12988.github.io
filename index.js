@@ -45,7 +45,7 @@ function startSlider(){
   var card2 = document.getElementById('card2');
   var card3 = document.getElementById('card3');
 
-   card2.innerHTML = card3.innerHTML;
+  console.log(card2.innerHTML);  
  
 
 
