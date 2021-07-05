@@ -55,7 +55,41 @@
         
         
       </div>
+      <div id="details">
+        <div class="row">
+          <div class="column">
+            <button class="closeButton" onclick="clearDialog()">X</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img
+            src="https://dg12988.github.io/assets/DougHead.png"
+            height="75px;"
+            alt="DougThumbnail"
+            id="DougThumbnailContact"
+            class="rotate"
+          />
+          <p style="color:white;">What do you want to tell me?</p>  
+          </div>
+            </div>
+        <div class="row">
+          <div class="column">
+            <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
+              <input type="text" name="field1" placeholder="Your Name" />
+              <input type="email" name="field2" placeholder="Email Address" />
+              <textarea name="field3" placeholder="Type your Message"></textarea>
+              <input type="submit" value="Send" />
+        
+          </form>
+          </div>
+        </div>
+        
+        
+      </div>
   </div>
+
+  
 
 
 
@@ -204,7 +238,7 @@
 
           <div class="row">
             <div class="column">
-              <button type="button" id="mappingDetails" class="underPortfolioButtons" onclick="openDialog(event)">View Details</button>
+              <button type="button" id="mappingDetails" class="underPortfolioButtons" onclick="openDetails(event)">View Details</button>
             </div>
             <div class="column">
               <button type="button" class="underPortfolioButtons"><a href="https://github.com/dg12988/Portfolio/" target="_blank">See Source</a></button>
@@ -233,7 +267,7 @@
 
                 <div class="row">
                   <div class="column">
-                    <button type="button" id="insuredDetails" class="underPortfolioButtons" onclick="openDialog(event)">View Details</button>
+                    <button type="button" id="insuredDetails" class="underPortfolioButtons" onclick="openDetails(event)">View Details</button>
                   </div>
                   <div class="column">
                     <button  type="button" class="underPortfolioButtons"><a href="https://github.com/dg12988/Portfolio/" target="_blank">See Source</a></button>
@@ -263,7 +297,7 @@
                 />
                 <div class="row">
                   <div class="column">
-                    <button type="button" id="adjusterDetails" class="underPortfolioButtons" onclick="openDialog(event)">View Details</button>
+                    <button type="button" id="adjusterDetails" class="underPortfolioButtons" onclick="openDetails(event)">View Details</button>
                   </div>
                   <div class="column">
                     <button  type="button" class="underPortfolioButtons"><a href="https://github.com/dg12988/Portfolio/" target="_blank">See Source</a></button>

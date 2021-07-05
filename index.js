@@ -159,7 +159,14 @@ function openDialog(ev){
  dialog.style.opacity = 1;
 
 }
+function openDetails(ev){
 
+
+ var dialog = document.getElementById('details');
+ dialog.style.zIndex = 100;
+ dialog.style.opacity = 1;
+
+}
 function clearDialog(){
   var element = document.getElementById('dialogWrapper');
   
