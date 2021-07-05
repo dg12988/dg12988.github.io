@@ -34,8 +34,6 @@ setInterval(() => {
         card3.innerHTML = tempC1;
         console.log("case 2 executed");
         break;
-      default:
-        n = 0;
     }
     
       n++;
