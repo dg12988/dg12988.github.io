@@ -1,8 +1,13 @@
 window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
 
+  this.startSlider();
 
+  
+   
+})
 
+function startSlider(){
   // Start Slider
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
@@ -65,9 +70,7 @@ setTimeout(() => {
 
  
 }, 1500);    
-   
-})
-
+}
 function flipImage() {
 
   if (event.target.id === "resumeButton"){
