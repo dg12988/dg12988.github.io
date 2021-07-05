@@ -75,7 +75,7 @@ function openDialog(ev){
   console.log(ev);
 if(ev.target.value = "mappingDetails"){
   temp.style.height = "80%";
-  temp.style.width = "100%";
+  temp.style.width = "90%";
   temp.style.top = "10%";
 
 }
