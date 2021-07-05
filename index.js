@@ -2,13 +2,13 @@ function loadOperations(){
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
 
   // Start Slider
-  var card1 = document.getElementById('card1').innerHTML;
-  var card2 = document.getElementById('card2').innerHTML;
-  var card3 = document.getElementById('card3').innerHTML;
+  var card1 = document.getElementById('card1');
+  var card2 = document.getElementById('card2');
+  var card3 = document.getElementById('card3');
 
-  var tempC1 = card1;
-  var tempC2 = card2;
-  var tempC3 = card3;
+  var tempC1 = card1.innerHTML;
+  var tempC2 = card2.innerHTML;
+  var tempC3 = card3.innerHTML;
 
   var n = 0;
 
@@ -17,19 +17,22 @@ setInterval(() => {
 
     switch (n < 3) {
       case 0:
-        card1 = tempC1;
-        card2 = tempC2;
-        card3 = tempC3;
+        card1.innerHTML = tempC1;
+        card2.innerHTML = tempC2;
+        card3.innerHTML = tempC3;
+        console.log("case 0 executed");
           break;
       case 1:
-        card1 = tempC3;
-        card2 = tempC1;
-        card3 = tempC2;
+        card1.innerHTML = tempC3;
+        card2.innerHTML = tempC1;
+        card3.innerHTML = tempC2;
+        console.log("case 1 executed");
         break;
       case 2:
-        card1 = tempC2;
-        card2 = tempC3;
-        card3 = tempC1;
+        card1.innerHTML = tempC2;
+        card2.innerHTML = tempC3;
+        card3.innerHTML = tempC1;
+        console.log("case 2 executed");
         break;
       default:
         n = 0;
