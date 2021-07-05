@@ -289,6 +289,8 @@ code {
 
   color: white;
   background-color: crimson;
+
+  border-radius: 5px;
 }
 
 @keyframes bounce{
