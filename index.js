@@ -7,10 +7,12 @@ window.addEventListener('load', function () {
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
   var card3 = document.getElementById('card3');
+  var card4 = document.getElementById('card4');
 
   var tempC1 = card1.innerHTML;
   var tempC2 = card2.innerHTML;
   var tempC3 = card3.innerHTML;
+  var tempC4 = card4.innerHTML;
 
   var n = 0;
 
@@ -26,12 +28,12 @@ setInterval(() => {
     setTimeout(() => {
       switch (n) {
         case 1:
-       card1.innerHTML = tempC3;
-         card2.innerHTML = tempC1;
-           card3.innerHTML = tempC2;
+       card1.innerHTML = tempC1;
+         card2.innerHTML = tempC2;
+           card3.innerHTML = tempC3;
           break;
         case 2:
-          card1.innerHTML = tempC2;
+          card1.innerHTML = tempC4;
           card2.innerHTML = tempC3;
           card3.innerHTML = tempC1;
           break;
