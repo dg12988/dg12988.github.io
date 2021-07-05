@@ -286,6 +286,9 @@ code {
   position: absolute;
   left: 95%;
   top: 1%;
+
+  color: white;
+  background-color: crimson;
 }
 
 @keyframes bounce{
