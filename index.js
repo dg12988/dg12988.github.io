@@ -14,8 +14,8 @@ window.addEventListener('load', function () {
   var tempC2 = card2.innerHTML;
   var tempC3 = card3.innerHTML;
   var tempC4 = card4.innerHTML;
-  var tempC5 = card4.innerHTML;
-  var tempC6 = card4.innerHTML;
+  var tempC5 = card5.innerHTML;
+  var tempC6 = card6.innerHTML;
 
   var n = 0;
 
