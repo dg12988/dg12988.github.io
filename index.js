@@ -56,7 +56,7 @@ setTimeout(() => {
  document.getElementById('mainSection').style.opacity = 1;
 
  
-}, 1000);    
+}, 1500);    
    
 })
 
