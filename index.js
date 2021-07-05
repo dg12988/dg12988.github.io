@@ -25,12 +25,7 @@ setInterval(() => {
 
     setTimeout(() => {
       switch (n) {
-        case 1:
-        card1.innerHTML = tempC1;
-        card2.innerHTML = tempC2;
-        card3.innerHTML = tempC3;
-        break;
-        case 2:
+         case 1:
          card1.innerHTML = tempC4;
          card2.innerHTML = tempC5;
          card3.innerHTML = tempC6;
