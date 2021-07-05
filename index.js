@@ -12,21 +12,25 @@ function loadOperations(){
 
   var n = 0;
 
+  card1.style.opacity = 1;
+  card2.style.opacity = .9;
+  card3.style.opacity = .9;
+
 setInterval(() => {
-  
+  card1.style.opacity = .8;
+  card2.style.opacity = .7;
+  card3.style.opacity = .7;
 
     switch (n) {
       case 1:
         card1.innerHTML = tempC3;
         card2.innerHTML = tempC1;
         card3.innerHTML = tempC2;
-        console.log("case 1 executed");
         break;
       case 2:
         card1.innerHTML = tempC2;
         card2.innerHTML = tempC3;
         card3.innerHTML = tempC1;
-        console.log("case 2 executed");
         break;
       default:
         n = 0;
@@ -36,9 +40,11 @@ setInterval(() => {
     }
     console.log(n);
       n++;
+
+      card1.style="o"
     }, 3000);
    
-  
+
 
   }
 
