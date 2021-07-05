@@ -26,11 +26,18 @@
       <div id="dialog">
         <button onclick="clearDialog()">X</button>
         <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
-             Name:<br>
-            <input type=”text” size=”19″ name=”ContactName”><br><br>
-            Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-        </textarea>
-        <input type="submit" value="Submit">
+          <label>
+            Your email:
+            <input type="email" name="_replyto">
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+        
+          <!-- your other form fields go here -->
+        
+          <button type="submit">Send</button>
     
       </form>
       </div>
