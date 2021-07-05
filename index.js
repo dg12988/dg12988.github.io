@@ -38,7 +38,7 @@ setInterval(() => {
         card2.innerHTML = tempC2;
         card3.innerHTML = tempC3;
     }
-    console.log(n);
+
       n++;
 
       card1.style="o"
