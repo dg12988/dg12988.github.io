@@ -26,15 +26,33 @@ setInterval(() => {
   card2.style.opacity = .4;
   card3.style.opacity = .4;
 
- console.log((switchSlider(n, tempC1, tempC2, tempC3)));
-  let cardsArrayObject = switchSlider(n, tempC1, tempC2, tempC3);
-console.log(cardsArrayObject);
-  card1 = cardsArrayObject.cardsArray[1]; 
-  card2 = cardsArrayObject.cardsArray[2];
-  card3 = cardsArrayObject.cardsArray[3];
-  n = cardsArrayObject.cardsArray[0];
+ 
 
-  n++;
+    setTimeout((n) => {
+      switch (n) {
+        case 1:
+       card1.innerHTML = tempC3;
+         card2.innerHTML = tempC1;
+           card3.innerHTML = tempC2;
+          break;
+        case 2:
+          card1.innerHTML = tempC2;
+          card2.innerHTML = tempC3;
+          card3.innerHTML = tempC1;
+          break;
+        default:
+          n = 0;
+          card1.innerHTML = tempC1;
+          card2.innerHTML = tempC2;
+          card3.innerHTML = tempC3;
+      }
+
+      card1.style.opacity = .9;
+      card2.style.opacity = 1;
+      card3.style.opacity = .9;
+    }, 250);
+
+      n++;
 
    
     }, 10000);
@@ -52,38 +70,6 @@ setTimeout(() => {
 
  
 }, 1500);    
-}
-
-function switchSlider(n, tempC1, tempC2, tempC3){
-
-  setTimeout((n) => {
-    switch (n) {
-      case 1:
-     card1.innerHTML = tempC3;
-       card2.innerHTML = tempC1;
-         card3.innerHTML = tempC2;
-        break;
-      case 2:
-        card1.innerHTML = tempC2;
-        card2.innerHTML = tempC3;
-        card3.innerHTML = tempC1;
-        break;
-      default:
-        n = 0;
-        card1.innerHTML = tempC1;
-        card2.innerHTML = tempC2;
-        card3.innerHTML = tempC3;
-    }
-
-    card1.style.opacity = .9;
-    card2.style.opacity = 1;
-    card3.style.opacity = .9;
-    
-    let cardsArray = [n, card1.innerHTML,card2.innerHTML,card3.innerHTML];
-    let cardsArrayObject =  Object.assign({},cardsArray);
-    console.log(cardsArrayObject);
-    return cardsArrayObject;
-  }, 250);
 }
 function flipImage() {
 
