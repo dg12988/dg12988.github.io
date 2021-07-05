@@ -298,16 +298,17 @@ code {
 }
 
 .rotate {
-  animation: flipX 2s infinite linear;
+  animation: flipX 3s infinite;
+  
 }
 
 @keyframes flipX{
   from {
-      -webkit-transform: rotateX(180deg);
+      -webkit-transform: rotateY(180deg);
   }
   
   to {
-      -webkit-transform: rotateX(-180deg);
+      -webkit-transform: rotateY(-180deg);
   }
   
 }
