@@ -68,32 +68,32 @@ function openDialog(ev){
   element.style.opacity = 1;
 
   
- var temp = document.getElementById('dialog');
- temp.style.zIndex = 100;
- temp.style.opacity = 1;
+ var dialog = document.getElementById('dialog');
+ dialog.style.zIndex = 100;
+ dialog.style.opacity = 1;
 console.log(ev);
 if(ev.target.id= "contactButton"){
-  temp.style.height = "50%";
-  temp.style.width = "50%";
-  temp.style.top = "25%";
+  dialog.style.height = "50%";
+  dialog.style.width = "50%";
+  dialog.style.top = "25%";
 }
 
 if(ev.target.id = "mappingDetails"){
-  temp.style.height = "80%";
+  dialog.style.height = "80%";
   temp.style.width = "90%";
   temp.style.top = "10%";
 
 }
 if(ev.target.id = "insuredDetails"){
-  temp.style.height = "80%";
-  temp.style.width = "90%";
-  temp.style.top = "10%";
+  dialog.style.height = "80%";
+  dialog.style.width = "90%";
+  dialog.style.top = "10%";
 
 }
 if(ev.target.id = "adjusterDetails"){
-  temp.style.height = "80%";
-  temp.style.width = "90%";
-  temp.style.top = "10%";
+  dialog.style.height = "80%";
+  dialog.style.width = "90%";
+  dialog.style.top = "10%";
 
 }
 
