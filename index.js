@@ -71,7 +71,7 @@ function openDialog(ev){
  var temp = document.getElementById('dialog');
  temp.style.zIndex = 100;
  temp.style.opacity = 1;
-
+console.log(ev);
 if(ev.target.value = "contactMe"){
   temp.style.height = "50%";
   temp.style.width = "50%";
