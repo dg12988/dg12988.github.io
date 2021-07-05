@@ -5,6 +5,8 @@ function loadOperations(){
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
   var card3 = document.getElementById('card3');
+
+  console.log(card2);
   setInterval(() => {
    card2 = card3;
   }, 3000);
