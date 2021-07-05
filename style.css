@@ -246,6 +246,7 @@ code {
 #card3{
   transition: opacity .2s ease;
 }
+
 .contactStyle{
 	font: 95% Arial, Helvetica, sans-serif;
 	max-width: 400px;
@@ -306,7 +307,7 @@ code {
 	border: 1px solid #43D1AF;
 }
 
-.contactStyle input[type="submit"],
+/* .contactStyle input[type="submit"],
 .contactStyle input[type="button"]{
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -323,7 +324,7 @@ code {
 .contactStyle input[type="submit"]:hover,
 .contactStyle input[type="button"]:hover{
 	background: #2EBC99;
-}
+} */
 
 .closeButton{
   position: absolute;
