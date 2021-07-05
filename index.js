@@ -181,7 +181,7 @@ function openDetails(ev){
   dialog.style.visibility = "hidden";
 
 
-  details.innerHTML="<p style='color:white'>Enterprise Software used by Claims Managers to assign claims to Insurance Adjusters via multiple methods, including a Google Map. <br>In the process of development and deployement for this project, I served as Project Manager, as well as the sole Front End Developer.  <br>The skills utilized for this project are, but not limited to: Angular 7, Angular Google Maps API, Angular Material, Typescript, HTML, CSS and The Marker-Clusterer Library.</p>";
+  details.innerHTML="<p style='color:white'>Enterprise Software used by Claims Managers to assign claims to Insurance Adjusters via multiple methods, including a Google Map. <br>In the process of development and deployement for this project, I served as Project Manager, as well as the sole Front End Developer.  <br>The skills utilized for this project are, but not limited to: Angular 7, Angular Google Maps API, Angular Material, Typescript, HTML, CSS and The Marker-Clusterer Library.</p><img src='https://dg12988.github.io/assets/mapping1.png' width='80%;'  alt='thisSiteBanner' id='thisSiteBanner'/>  <img  src='https://dg12988.github.io/assets/mapping2.png' width='80%;' alt='thisSiteBanner' id='thisSiteBanner/>";
 
 
 
