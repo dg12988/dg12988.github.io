@@ -68,6 +68,8 @@ setTimeout(() => {
    
 })
 
+
+
 function startSlider(){
   // Start Slider
   var card1 = document.getElementById('card1');
@@ -148,23 +150,32 @@ function flipImage() {
 }
 
 function openDialog(ev){
-
   var element = document.getElementById('dialogWrapper');
   element.style.zIndex = 99;
   element.style.opacity = 1;
 
+  var details = document.getElementById('details');
+  details.style.visibility = "hidden";
   
  var dialog = document.getElementById('dialog');
  dialog.style.zIndex = 100;
  dialog.style.opacity = 1;
 
+
+
 }
 function openDetails(ev){
 
+  var element = document.getElementById('dialogWrapper');
+  element.style.zIndex = 99;
+  element.style.opacity = 1;
+  
+  var dialog = document.getElementById('dialog');
+  dialog.style.visibility = "hidden";
 
- var dialog = document.getElementById('details');
- dialog.style.zIndex = 100;
- dialog.style.opacity = 1;
+ var details = document.getElementById('details');
+ details.style.zIndex = 100;
+ details.style.opacity = 1;
 
 }
 function clearDialog(){
