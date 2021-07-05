@@ -80,8 +80,8 @@ if(ev.target.id= "contactButton"){
 
 if(ev.target.id = "mappingDetails"){
   dialog.style.height = "80%";
-  temp.style.width = "90%";
-  temp.style.top = "10%";
+  dialog.style.width = "90%";
+  dialog.style.top = "10%";
 
 }
 if(ev.target.id = "insuredDetails"){
