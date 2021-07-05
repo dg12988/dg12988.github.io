@@ -51,8 +51,11 @@ body {
   margin-bottom: 70px;
 
 }
-section{
+.card{
   background-color: white;
+
+  transition: opacity .5s ease-in;
+  -webkit-transition: opacity .5s ease-in;
 }
 a{
     text-decoration: none;
