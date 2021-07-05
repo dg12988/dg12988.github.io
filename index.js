@@ -27,9 +27,14 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-  switchSlider(n, tempC1, tempC2, tempC3);
+  let cardsArray = switchSlider(n, tempC1, tempC2, tempC3);
 
-      n++;
+  card1 = cardsArray.card1; 
+  card2 = cardsArray.card2;
+  card3 = cardsArray.card3;
+  n = cardsArray.n;
+
+  n++;
 
    
     }, 10000);
@@ -74,8 +79,8 @@ function switchSlider(n, tempC1, tempC2, tempC3){
     card2.style.opacity = 1;
     card3.style.opacity = .9;
 
-
-    return n, card1.innerHTML,card2.innerHTML,card3.innerHTML;
+    let cardsArray = [n, card1.innerHTML,card2.innerHTML,card3.innerHTML];
+    return cardsArray;
   }, 250);
 }
 function flipImage() {
