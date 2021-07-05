@@ -21,7 +21,7 @@ setInterval(() => {
 
     switch (n) {
       case 1:
-       fadeIn( card1.innerHTML = tempC3, 1);
+       fadeIn( (card1.innerHTML = tempC3), 1);
        fadeIn(  card2.innerHTML = tempC1, 1);
         fadeIn(  card3.innerHTML = tempC2, 1);
         break;
