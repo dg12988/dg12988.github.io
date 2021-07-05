@@ -62,7 +62,7 @@ body {
   color:  #e8e8e8;
   border-radius: 5px;
 
-  height: 20%!important;
+  height: 100%;
   transition: opacity .5s ease-in;
   -webkit-transition: opacity .5s ease-in;
 
