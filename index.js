@@ -16,12 +16,6 @@ setInterval(() => {
   
 
     switch (n) {
-      case 0:
-        card1.innerHTML = tempC1;
-        card2.innerHTML = tempC2;
-        card3.innerHTML = tempC3;
-        console.log("case 0 executed");
-          break;
       case 1:
         card1.innerHTML = tempC3;
         card2.innerHTML = tempC1;
@@ -36,6 +30,9 @@ setInterval(() => {
         break;
       default:
         n = 0;
+        card1.innerHTML = tempC1;
+        card2.innerHTML = tempC2;
+        card3.innerHTML = tempC3;
     }
     console.log(n);
       n++;
