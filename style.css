@@ -57,11 +57,9 @@ body {
   
 
 }
-.card{
+#firstCard{
   background-color: #333333;
   color:  #e8e8e8;
-
-  padding: 20px;
   border-radius: 5px;
 
   height: 20%!important;
@@ -71,6 +69,14 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
+.card{
+
+
+  padding: 20px;
+
+
+ 
 }
 
 a{
