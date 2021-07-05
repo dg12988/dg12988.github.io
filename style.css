@@ -284,7 +284,8 @@ code {
 
 .closeButton{
   position: absolute;
-  left: 100%;
+  left: 95%;
+  top: 1%;
 }
 
 @keyframes bounce{
