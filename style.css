@@ -70,7 +70,15 @@ body {
 a{
     text-decoration: none;
 }
-
+button{
+  
+  padding: 20px;
+  border-radius: 5px;
+  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
 p {
   color: #990100;
 }
