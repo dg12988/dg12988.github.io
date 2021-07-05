@@ -67,10 +67,7 @@ body {
   -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
-#card2{
-  display: flex;
-  justify-content: center;
-}
+
 a{
     text-decoration: none;
 }
