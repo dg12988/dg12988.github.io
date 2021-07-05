@@ -54,6 +54,8 @@ body {
 .card{
   background-color: white;
 
+  padding: 10px;
+  
   transition: opacity .5s ease-in;
   -webkit-transition: opacity .5s ease-in;
 }
