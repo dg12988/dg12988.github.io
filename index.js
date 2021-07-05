@@ -80,6 +80,7 @@ function switchSlider(n, tempC1, tempC2, tempC3){
     card3.style.opacity = .9;
 
     let cardsArray = [n, card1.innerHTML,card2.innerHTML,card3.innerHTML];
+    console.log(cardsArray);
     return cardsArray;
   }, 250);
 }
