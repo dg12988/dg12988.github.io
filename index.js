@@ -15,7 +15,7 @@ function loadOperations(){
 setInterval(() => {
   
 
-    switch (n < 3) {
+    switch (n) {
       case 0:
         card1.innerHTML = tempC1;
         card2.innerHTML = tempC2;
@@ -34,6 +34,8 @@ setInterval(() => {
         card3.innerHTML = tempC1;
         console.log("case 2 executed");
         break;
+      default:
+        n = 0;
     }
     console.log(n);
       n++;
