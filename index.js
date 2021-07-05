@@ -28,7 +28,7 @@ setInterval(() => {
 
  
   let cardsArray = switchSlider(n, tempC1, tempC2, tempC3);
-
+console.log(cardsArray);
   card1 = cardsArray.card1; 
   card2 = cardsArray.card2;
   card3 = cardsArray.card3;
