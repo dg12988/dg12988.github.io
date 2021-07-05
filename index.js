@@ -35,7 +35,7 @@ setInterval(() => {
         console.log("case 2 executed");
         break;
     }
-    
+    console.log(n);
       n++;
     }, 3000);
    
