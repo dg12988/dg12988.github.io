@@ -19,9 +19,7 @@ window.addEventListener('load', function () {
 
   var n = 0;
 
-  card1.style.opacity = .9;
-  card2.style.opacity = 1;
-  card3.style.opacity = .9;
+
 
 setInterval(() => {
   card1.style.opacity = .3;
@@ -42,14 +40,14 @@ setInterval(() => {
          card3.innerHTML = tempC3;
       }
 
-      card1.style.opacity = .9;
+      card1.style.opacity = 1;
       card2.style.opacity = 1;
-      card3.style.opacity = .9;
+      card3.style.opacity = 1;
 
-      n++;
+    
     }, 250);
 
- 
+    n++;
 
    
     }, 10000);
