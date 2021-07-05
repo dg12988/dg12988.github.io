@@ -158,6 +158,7 @@ function openDialog(ev){
   details.style.visibility = "hidden";
   
  var dialog = document.getElementById('dialog');
+ dialog.style.visibility = "visible";
  dialog.style.zIndex = 100;
  dialog.style.opacity = 1;
 
@@ -171,6 +172,8 @@ function openDetails(ev){
   element.style.opacity = 1;
 
   var details = document.getElementById('details');
+  details.style.visibility = "visible";
+
   details.style.zIndex = 100;
   details.style.opacity = 1;
   
