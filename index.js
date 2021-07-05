@@ -26,13 +26,13 @@ setInterval(() => {
   card2.style.opacity = .4;
   card3.style.opacity = .4;
 
-  let cardsArray = [];
- cardsArray = switchSlider(n, tempC1, tempC2, tempC3);
+ 
+  let cardsArray = switchSlider(n, tempC1, tempC2, tempC3);
 console.log(cardsArray);
-  card1 = cardsArray.card1; 
-  card2 = cardsArray.card2;
-  card3 = cardsArray.card3;
-  n = cardsArray.n;
+  card1 = cardsArray[1]; 
+  card2 = cardsArray[2];
+  card3 = cardsArray[3];
+  n = cardsArray[0];
 
   n++;
 
