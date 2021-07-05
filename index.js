@@ -1,5 +1,7 @@
 window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
+  document.getElementById("mainSection").style = "transition: opacity 1s ease;opacity: 0;";
+
 
   // Start Slider
   var card1 = document.getElementById('card1');
@@ -42,8 +44,11 @@ setInterval(() => {
    
     }, 10000);
 
+
 setTimeout(() => {
   document.getElementById('mainSection').style = "visibility: visible;"
+  document.getElementById('mainSection').style = "opacity: 1;"
+ 
 }, 3000);    
    
 })
