@@ -27,7 +27,7 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-switchSlider(n);
+switchSlider(n, tempC1, tempC2, tempC3);
 
       n++;
 
@@ -49,7 +49,7 @@ setTimeout(() => {
 }, 1500);    
 }
 
-function switchSlider(n){
+function switchSlider(n, tempC1, tempC2, tempC3){
 
   setTimeout((n) => {
     switch (n) {
