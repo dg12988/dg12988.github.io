@@ -24,14 +24,26 @@
 
     <div id="dialogWrapper">
       <div id="dialog" class="contactStyle">
-        <button onclick="clearDialog()">X</button>
-        <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
-          <input type="text" name="field1" placeholder="Your Name" />
-          <input type="email" name="field2" placeholder="Email Address" />
-          <textarea name="field3" placeholder="Type your Message"></textarea>
-          <input type="submit" value="Send" />
-    
-      </form>
+        <div class="row">
+          <div class="column _9">
+          </div>
+          <div class="column _1">
+            <button onclick="clearDialog()">X</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
+              <input type="text" name="field1" placeholder="Your Name" />
+              <input type="email" name="field2" placeholder="Email Address" />
+              <textarea name="field3" placeholder="Type your Message"></textarea>
+              <input type="submit" value="Send" />
+        
+          </form>
+          </div>
+        </div>
+        
+        
       </div>
   </div>
 
