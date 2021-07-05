@@ -61,9 +61,9 @@ function flipImage() {
   }
 }
 
-function openDialog(event){
+function openDialog(ev){
 
- console.log(event);
+ console.log(ev);
 
  var element = document.getElementById('dialogWrapper');
  element.style.zIndex = 99;
