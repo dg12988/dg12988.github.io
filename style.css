@@ -234,6 +234,7 @@ code {
 	-moz-transition: all 0.30s ease-in-out;
 	-ms-transition: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
+
 	outline: none;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -294,4 +295,18 @@ code {
     90%{
         transform: translateY(-4px);
     }
+}
+
+.rotate {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(-1);
+  }
+  }
 }
