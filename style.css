@@ -146,7 +146,7 @@ code {
 #mainBanner{
   transition: width 2s, height 3s;
   width: 500px;
-  height: 65px;
+  height: 75px;
 
 }
 .sectionHead{
