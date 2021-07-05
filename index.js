@@ -15,7 +15,7 @@ window.addEventListener('load', function () {
   var n = 0;
 
   let appArray = [n, card1, card2, card3];
-  let siteArray = [n, card4, card5, card6];
+  // let siteArray = [n, card4, card5, card6];
 
 setInterval(() => {
 
