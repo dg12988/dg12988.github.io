@@ -73,9 +73,9 @@ function openDialog(ev){
  dialog.style.opacity = 1;
 console.log(ev);
 if(ev.target.id= "contactButton"){
-  dialog.style.height = "50%";
-  dialog.style.width = "50%";
-  dialog.style.top = "25%";
+  dialog.style.height = "25%";
+  dialog.style.width = "25%";
+  dialog.style.top = "15%";
 }
 
 if(ev.target.id = "mappingDetails"){
