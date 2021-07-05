@@ -72,7 +72,12 @@ function openDialog(ev){
  temp.style.zIndex = 100;
  temp.style.opacity = 1;
 
-  console.log(ev);
+if(ev.target.value = "contactMe"){
+  temp.style.height = "50%";
+  temp.style.width = "50%";
+  temp.style.top = "25%";
+}
+
 if(ev.target.value = "mappingDetails"){
   temp.style.height = "80%";
   temp.style.width = "90%";
