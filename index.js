@@ -14,55 +14,42 @@ window.addEventListener('load', function () {
 
   var n = 0;
 
-  let appArray = [n, card1, card2, card3];
-  // let siteArray = [n, card4, card5, card6];
 
-setInterval(() => {
 
-if(n < 2){
-  console.log(document.getElementById('cards'));
-  n++;
-}
-else{
-  n = 0;
-}
-}, 10000);
-// Swaps individual cards. Commented for possible future functionality. 
-
-//   card1.style.opacity = .2;
-//   card2.style.opacity = .2;
-//   card3.style.opacity = .2;
+  card1.style.opacity = .2;
+  card2.style.opacity = .2;
+  card3.style.opacity = .2;
 
  
 
-//     setTimeout(() => {
-//       switch (n) {
-//         case 1:
-//        card1.innerHTML = tempC3;
-//          card2.innerHTML = tempC1;
-//            card3.innerHTML = tempC2;
-//           break;
-//         case 2:
-//           card1.innerHTML = tempC2;
-//           card2.innerHTML = tempC3;
-//           card3.innerHTML = tempC1;
-//           break;
-//         default:
-//           n = 0;
-//           card1.innerHTML = tempC1;
-//           card2.innerHTML = tempC2;
-//           card3.innerHTML = tempC3;
-//       }
+    setTimeout(() => {
+      switch (n) {
+        case 1:
+       card1.innerHTML = tempC3;
+         card2.innerHTML = tempC1;
+           card3.innerHTML = tempC2;
+          break;
+        case 2:
+          card1.innerHTML = tempC2;
+          card2.innerHTML = tempC3;
+          card3.innerHTML = tempC1;
+          break;
+        default:
+          n = 0;
+          card1.innerHTML = tempC1;
+          card2.innerHTML = tempC2;
+          card3.innerHTML = tempC3;
+      }
 
-//       card1.style.opacity = .9;
-//       card2.style.opacity = 1;
-//       card3.style.opacity = .9;
-//     }, 250);
+      card1.style.opacity = .9;
+      card2.style.opacity = 1;
+      card3.style.opacity = .9;
+    }, 250);
 
-//       n++;
+      n++;
 
    
-//     }, 10000);
+    }, 10000);
 
     setTimeout(() => {
       document.getElementById('introSection').style.opacity = 1;
