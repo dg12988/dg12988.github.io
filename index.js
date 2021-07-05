@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
-  document.getElementById("mainSection").style = "transition: opacity 1s ease;opacity: 0;";
+  document.getElementById("mainSection").style = "transition: opacity 1s ease;opacity: 1;";
 
 
   // Start Slider
@@ -47,7 +47,7 @@ setInterval(() => {
 
 setTimeout(() => {
   document.getElementById('mainSection').style = "visibility: visible;"
-  document.getElementById('mainSection').style = "opacity: 1;"
+  document.getElementById('mainSection').style = "opacity: 0;"
  
 }, 3000);    
    
