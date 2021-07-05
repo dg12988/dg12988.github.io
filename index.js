@@ -44,7 +44,11 @@ setInterval(() => {
       card1.style="o"
     }, 3000);
    
-
+    setInterval(() => {
+      card1.style.opacity = 1;
+      card2.style.opacity = .9;
+      card3.style.opacity = .9;
+    }, 4000);
 
   }
 
