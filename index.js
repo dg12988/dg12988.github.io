@@ -1,5 +1,13 @@
 function loadOperations(){
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
+
+  // Start Slider
+  var card1 = document.getElementById('card1');
+  var card2 = document.getElementById('card2');
+  var card3 = document.getElementById('card3');
+  setInterval(() => {
+   card2 = card3;
+  }, 3000);
 }
 function flipImage() {
 
@@ -40,14 +48,4 @@ function clearDialog(){
   }, 500);
 }
 
-function startSlider(){
-  var card1 = document.getElementById('card1');
-  var card2 = document.getElementById('card2');
-  var card3 = document.getElementById('card3');
-
-  console.log(card2.innerHTML);  
- 
-
-
-}
 
