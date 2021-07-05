@@ -27,7 +27,7 @@ setInterval(() => {
   card3.style.opacity = .4;
 
  
-switchSlider(n, tempC1, tempC2, tempC3);
+n = switchSlider(n, tempC1, tempC2, tempC3);
 
       n++;
 
@@ -73,6 +73,9 @@ function switchSlider(n, tempC1, tempC2, tempC3){
     card1.style.opacity = .9;
     card2.style.opacity = 1;
     card3.style.opacity = .9;
+
+
+    return n;
   }, 250);
 }
 function flipImage() {
