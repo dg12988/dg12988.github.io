@@ -19,6 +19,8 @@
   </head>
   <body onload="loadOperations()">
    
+
+
     <div id="dialogWrapper">
       <div id="dialog">
         <button onclick="clearDialog()">X</button>
@@ -32,43 +34,61 @@
       </form>
       </div>
   </div>
-    <div type="module" class="flexChild">
-      <h1 id="mainBanner">
-        Hello, everyone
+
+  <!-- <h1>Easiest Flex Grid Ever</h1>
+<div class="row">
+  <div class="column">
+    100%
+  </div>
+</div> -->
+
+
+<main>
+  <div class="row">
+    <div class="column">
+      <div type="module" class="flexChild">
+        <h1 id="mainBanner">
+          Hello, everyone
+          <img
+            src="https://dg12988.github.io/assets/waveHand.png"
+            height="50px;"
+            alt="waveHand"
+            id="waveHand"
+          />
+          I'm Doug
+    
+        </h1>
+        <p>
+          An efficient and passionate Front End Software Developer with experience
+          <br />
+          in the construction of Web applications using Javascript / Angular /
+          <br />
+          Nodejs / HTML / CSS. <br /><br />I am currently seeking new employment
+          <img
+            src="https://dg12988.github.io/assets/flex.png"
+            height="30px;"
+            alt="flex"
+            id="flex"
+          /><br />
+          Please check out my resume or reach out and contact me below.
+        </p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="flexChild">
         <img
-          src="https://dg12988.github.io/assets/waveHand.png"
-          height="50px;"
-          alt="waveHand"
-          id="waveHand"
+          src="https://dg12988.github.io/assets/DGPortfolioHeroImage.svg"
+          height="500px;"
+          alt="DGPortfolioHeroImage"
+          id="DGPortfolioHeroImage"
         />
-        I'm Doug
-  
-      </h1>
-      <p>
-        An efficient and passionate Front End Software Developer with experience
-        <br />
-        in the construction of Web applications using Javascript / Angular /
-        <br />
-        Nodejs / HTML / CSS. <br /><br />I am currently seeking new employment
-        <img
-          src="https://dg12988.github.io/assets/flex.png"
-          height="30px;"
-          alt="flex"
-          id="flex"
-        /><br />
-        Please check out my resume or reach out and contact me below.
-      </p>
+      </div>
     </div>
-    <div class="flexChild">
-      <img
-        src="https://dg12988.github.io/assets/DGPortfolioHeroImage.svg"
-        height="500px;"
-        alt="DGPortfolioHeroImage"
-        id="DGPortfolioHeroImage"
-      />
-    </div>
-    <div class="break"></div>
-    <!-- break -->
+  </div>
+
+  <div class="row">
+    <div class="column">
+        
     <div class="flexChild">
       <a href="https://www.linkedin.com/in/doug-goldberg/" target="_blank">
         <img
@@ -107,36 +127,57 @@
         />
       </a>
     </div>
-    <div class="break"></div>
-    <!-- break -->
-    <div class="flexChild">
-      <button
-        id="contactButton"
-        class="hoverButton"
-        onmouseenter="flipImage()"
-        onclick="openDialog()"
-        value="Go to Google"
-      >
-        Contact Me
-      </button>
-      <img
-        src="https://dg12988.github.io/assets/DougHead.png"
-        height="100px;"
-        alt="DougThumbnail"
-        id="DougThumbnail"
-      />
-      <button
-        id="resumeButton"
-        class="hoverButton"
-        onmouseenter="flipImage()"
-        onclick="window.open('https://dg12988.github.io/assets/DGResume.pdf', '_blank');"
-        value="See My Resume"
-      >
-        See My Résumé
-      </button>
     </div>
-    <div class="break"></div>
-<div class="flexChild">
+    <div class="row">
+      <div class="column">
+        <div class="flexChild">
+          <button
+            id="contactButton"
+            class="hoverButton"
+            onmouseenter="flipImage()"
+            onclick="openDialog()"
+            value="Go to Google"
+          >
+            Contact Me
+          </button>
+          <img
+            src="https://dg12988.github.io/assets/DougHead.png"
+            height="100px;"
+            alt="DougThumbnail"
+            id="DougThumbnail"
+          />
+          <button
+            id="resumeButton"
+            class="hoverButton"
+            onmouseenter="flipImage()"
+            onclick="window.open('https://dg12988.github.io/assets/DGResume.pdf', '_blank');"
+            value="See My Resume"
+          >
+            See My Résumé
+          </button>
+        </div>
+      </div>
+  
+  
+  <!-- <div class="row">
+    <div class="column _25">
+      Twenty-five Percent
+    </div>
+    <div class="column _5">
+      Fifty Percent
+    </div>
+    <div class="column _25">
+      Twenty-five Percent
+    </div>
+  </div> -->
+</main>
+
+
+   
+  
+ 
+
+<!-- <div class="flexChild">
    <div class="cards">
       <section class="card">  <header>WebApps Portfolio</header>
         <ul>    <li>Item</li>    <li>Item</li>    <li>Item</li>  </ul>  <button>See Source Repository</button></section>
@@ -145,7 +186,7 @@
           <section class="card">  <header>  </header>
             <ul>    <li>Item</li>    <li>Item</li>    <li>Item</li>  </ul>  <button>See Source Repository</button></section>
       </div>
-</div>
+</div> -->
     <!-- <div class="flexChild">
       <h2 style="text-align: center;">WebApps Portfolio</h2>
         <div >
@@ -252,6 +293,6 @@
         />
        </div>
     </div> -->
-    <div class="break"></div>
+
    </body>
 </html>
