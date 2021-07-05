@@ -40,3 +40,14 @@ function clearDialog(){
   }, 500);
 }
 
+function startSlider(){
+  var card1 = document.getElementById('card1');
+  var card2 = document.getElementById('card2');
+  var card3 = document.getElementById('card3');
+  setInterval(() => {
+   card2 = card3;
+  }, 3000);
+
+
+}
+
