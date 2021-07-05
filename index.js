@@ -16,9 +16,10 @@ window.addEventListener('load', function () {
 
 
 
-  card1.style.opacity = .2;
-  card2.style.opacity = .2;
-  card3.style.opacity = .2;
+setInterval(() => {
+  card1.style.opacity = .3;
+  card2.style.opacity = .3;
+  card3.style.opacity = .3;
 
  
 
@@ -63,10 +64,9 @@ setTimeout(() => {
  document.getElementById('mainSection').style.opacity = 1;
 
  
-}, 1500);       
+}, 1500);    
    
 })
-
 
 
 
