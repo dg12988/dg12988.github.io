@@ -25,7 +25,12 @@
     <div id="dialogWrapper">
       <div id="dialog" class="contactStyle">
         <div class="row">
-          <div class="column _9">
+          <div class="column">
+            <button class="closeButton" onclick="clearDialog()">X</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
             <img
             src="https://dg12988.github.io/assets/DougHead.png"
             height="75px;"
@@ -33,12 +38,9 @@
             id="DougThumbnailContact"
             class="rotate"
           />
-          <p>What do you want to tell me?</p>
+          <p>What do you want to tell me?</p>  
           </div>
-          <div class="column _1">
-            <button class="closeButton" onclick="clearDialog()">X</button>
-          </div>
-        </div>
+            </div>
         <div class="row">
           <div class="column">
             <form action="https://formspree.io/f/xdoydjoe" method="post" enctype="text/plain">
