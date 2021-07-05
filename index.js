@@ -169,13 +169,15 @@ function openDetails(ev){
   var element = document.getElementById('dialogWrapper');
   element.style.zIndex = 99;
   element.style.opacity = 1;
+
+  var details = document.getElementById('details');
+  details.style.zIndex = 100;
+  details.style.opacity = 1;
   
   var dialog = document.getElementById('dialog');
   dialog.style.visibility = "hidden";
 
- var details = document.getElementById('details');
- details.style.zIndex = 100;
- details.style.opacity = 1;
+
 
 }
 function clearDialog(){
