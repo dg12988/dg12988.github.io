@@ -120,9 +120,19 @@ function openDetails(ev){
   var dialog = document.getElementById('dialog');
   dialog.style.visibility = "hidden";
 console.log(ev.target.id);
+  if(ev.target.id === "mappingDetails"){
+    child1.style.display = "none";
+    child2.style.display = "block";
+    child3.style.display = "none";
+  }
   if(ev.target.id === "insuredDetails"){
     child1.style.display = "none";
-    child2.style.display = "flex";
+    child2.style.display = "block";
+    child3.style.display = "none";
+  }
+  if(ev.target.id === "adjusterDetails"){
+    child1.style.display = "none";
+    child2.style.display = "block";
     child3.style.display = "none";
   }
 
