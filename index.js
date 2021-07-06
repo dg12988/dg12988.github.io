@@ -103,6 +103,10 @@ function openDialog(ev){
 }
 function openDetails(ev){
 
+  var child1 = document.getElementById('child1');
+  var child2 = document.getElementById('child2');
+  var child3 = document.getElementById('child3');
+
   var element = document.getElementById('dialogWrapper');
   element.style.zIndex = 99;
   element.style.opacity = 1;
@@ -115,6 +119,12 @@ function openDetails(ev){
   
   var dialog = document.getElementById('dialog');
   dialog.style.visibility = "hidden";
+
+  if(ev.target.id === "insuredDetails"){
+    child1.style.visibility = "hidden";
+    child2.style.visibility = "visible";
+    child3.style.visibility = "hidden";
+  }
 
   
 
