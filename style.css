@@ -148,8 +148,8 @@ font-family: "Roboto", sans-serif;
   transition: color 1s ease-in;
   -webkit-transition: color 1s ease-in;
 }
-.steelblue{
-  color: steelblue;
+.gold{
+  color: #fdcb45;
 }
 .skillsBar{
   background-color: #496d7e;
