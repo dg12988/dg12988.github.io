@@ -149,7 +149,7 @@ font-family: "Roboto", sans-serif;
   -webkit-transition: color 0.3s ease-in;
 }
 .highLightHeader:hover{
-  color: #3988c1;
+  color: #ffe1a8;
 }
 #contactButton {
   border: none;
