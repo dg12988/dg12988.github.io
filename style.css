@@ -96,6 +96,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.inDetailsButton{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
 .underPortfolioButtons{
   
   padding: 5px;
