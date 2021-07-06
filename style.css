@@ -259,7 +259,9 @@ code {
 .sectionHead{
   text-align: center;
 }
-
+.white{
+  color: white;
+}
 #card1{
   transition: opacity .2s ease;
 }
