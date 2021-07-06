@@ -162,7 +162,7 @@ console.log(ev.target.id);
     child5.style.display = "none";
     child6.style.display = "none";
   }
-  if(ev.target.id === "mappingDetails"){
+  if(ev.target.id === "haDetails"){
     child2.style.display = "none";
     child1.style.display = "none";
     child3.style.display = "none";
@@ -170,7 +170,7 @@ console.log(ev.target.id);
     child5.style.display = "none";
     child6.style.display = "none";
   }
-  if(ev.target.id === "insuredDetails"){
+  if(ev.target.id === "portDetails"){
     child1.style.display = "none";
     child2.style.display = "none";
     child3.style.display = "none";
@@ -178,7 +178,7 @@ console.log(ev.target.id);
     child5.style.display = "block";
     child6.style.display = "none";
   }
-  if(ev.target.id === "adjusterDetails"){
+  if(ev.target.id === "sealcoatDetails"){
     child1.style.display = "none";
     child3.style.display = "none";
     child2.style.display = "none";
