@@ -10,7 +10,6 @@ window.addEventListener('load', function () {
 
 function toggleCards(n, ev){
 
-  console.log(ev);
   // Start Slider
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
@@ -29,6 +28,7 @@ function toggleCards(n, ev){
   var n = 0;
 
 
+  console.log(ev);
 
 setInterval(() => {
   card1.style.opacity = .3;
