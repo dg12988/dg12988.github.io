@@ -120,7 +120,7 @@ a {
   -webkit-transition: background-color 0.5s ease-in;
 }
 .underPortfolioButtons:hover{
-  background-color: #496d7e;
+  background-color: #3988c1;
 }
 p {
   color: #676668;
@@ -134,7 +134,7 @@ code {
 }
 
 .highLight {
-  color: #003399;
+  color: #496d7e;
   display: inline;
 
   font-size: 35px;
