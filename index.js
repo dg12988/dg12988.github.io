@@ -50,7 +50,7 @@ setInterval(() => {
     n++;
 
    
-    }, 10000);
+    }, 20000);
 
     setTimeout(() => {
       document.getElementById('introSection').style.opacity = 1;
