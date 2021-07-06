@@ -1,7 +1,15 @@
 window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
-  
+  let n=0;
+  toggleCards(n);
 
+   
+})
+
+
+function toggleCards(n, ev){
+
+  console.log(ev);
   // Start Slider
   var card1 = document.getElementById('card1');
   var card2 = document.getElementById('card2');
@@ -65,10 +73,16 @@ setTimeout(() => {
 
  
 }, 5000);    
-   
-})
 
+  // if(n === 0){
+  //   n=1;
+  // }
+  // else{
+  //   n=0;
+  // }
 
+  // return n;
+}
 
 function flipImage() {
 
