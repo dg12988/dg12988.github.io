@@ -145,8 +145,8 @@ font-family: "Roboto", sans-serif;
   color: #003399;
   display: inline;
 
-  transition: color 0.3s ease-in;
-  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.5s ease-in;
+  -webkit-transition: color 0.5s ease-in;
 }
 .highLightHeader:hover{
   color: #ffe1a8;
