@@ -121,6 +121,9 @@ function openDetails(ev){
   var child1 = document.getElementById('child1');
   var child2 = document.getElementById('child2');
   var child3 = document.getElementById('child3');
+  var child4 = document.getElementById('child4');
+  var child5 = document.getElementById('child5');
+  var child6 = document.getElementById('child6');
 
   var element = document.getElementById('dialogWrapper');
   element.style.zIndex = 99;
@@ -139,16 +142,49 @@ console.log(ev.target.id);
     child2.style.display = "none";
     child1.style.display = "block";
     child3.style.display = "none";
+    child4.style.display = "none";
+    child5.style.display = "none";
+    child6.style.display = "none";
   }
   if(ev.target.id === "insuredDetails"){
     child1.style.display = "none";
     child2.style.display = "block";
     child3.style.display = "none";
+    child4.style.display = "none";
+    child5.style.display = "none";
+    child6.style.display = "none";
   }
   if(ev.target.id === "adjusterDetails"){
     child1.style.display = "none";
     child3.style.display = "block";
     child2.style.display = "none";
+    child4.style.display = "none";
+    child5.style.display = "none";
+    child6.style.display = "none";
+  }
+  if(ev.target.id === "mappingDetails"){
+    child2.style.display = "none";
+    child1.style.display = "none";
+    child3.style.display = "none";
+    child4.style.display = "block";
+    child5.style.display = "none";
+    child6.style.display = "none";
+  }
+  if(ev.target.id === "insuredDetails"){
+    child1.style.display = "none";
+    child2.style.display = "none";
+    child3.style.display = "none";
+    child4.style.display = "none";
+    child5.style.display = "block";
+    child6.style.display = "none";
+  }
+  if(ev.target.id === "adjusterDetails"){
+    child1.style.display = "none";
+    child3.style.display = "none";
+    child2.style.display = "none";
+    child4.style.display = "none";
+    child5.style.display = "none";
+    child6.style.display = "block";
   }
 
   
