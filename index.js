@@ -121,9 +121,9 @@ function openDetails(ev){
   dialog.style.visibility = "hidden";
 console.log(ev.target.id);
   if(ev.target.id === "insuredDetails"){
-    child1.style.visibility = "hidden";
-    child2.style.visibility = "visible";
-    child3.style.visibility = "hidden";
+    child1.style.display = "none";
+    child2.style.display = "flex";
+    child3.style.display = "none";
   }
 
   
