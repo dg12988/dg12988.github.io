@@ -134,7 +134,7 @@ code {
 }
 
 .highLight {
-  color: #496d7e;
+  color: white;
   display: inline;
 
   font-size: 35px;
@@ -148,7 +148,15 @@ font-family: "Roboto", sans-serif;
   transition: color 1s ease-in;
   -webkit-transition: color 1s ease-in;
 }
+.steelblue{
+  color: steelblue;
+}
+.skillsBar{
+  background-color: #496d7e;
+  border-radius: 5px;
+  padding: 10px;
 
+}
 #contactButton {
   border: none;
   border-radius: 10px;
