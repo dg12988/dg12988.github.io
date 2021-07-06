@@ -261,6 +261,7 @@ code {
 }
 .white{
   color: white;
+  display: inline;
 }
 #card1{
   transition: opacity .2s ease;
