@@ -106,6 +106,20 @@ a{
   
   font-size: 20px;
 
+
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+
+  cursor: pointer;
+
+  font-family: "Source Sans Pro", sans-serif;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+
 }
 p {
   color: #496d7e;
