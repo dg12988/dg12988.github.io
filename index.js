@@ -1,3 +1,6 @@
+// Portfolio Site for Doug Goldberg
+
+// Listens for load, changes main banner size to trigger transition
 window.addEventListener("load", function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;";
   let n = 0;
@@ -21,13 +24,17 @@ function toggleCards(n, ev) {
   var tempC5 = card5.innerHTML;
   var tempC6 = card6.innerHTML;
 
+  // Decides which set of Cards to show
   var n = 0;
 
+  // Swaps sets automatically after 20 seconds
   setInterval(() => {
+    // Change opacity during transition
     card1.style.opacity = 0.3;
     card2.style.opacity = 0.3;
     card3.style.opacity = 0.3;
 
+    // Selects card set | Short timeout for transition opacity CSS effect
     setTimeout(() => {
       switch (n) {
         case 1:
@@ -47,27 +54,23 @@ function toggleCards(n, ev) {
       card3.style.opacity = 1;
     }, 250);
 
+    // Iterate n so that next pass is next card set
     n++;
   }, 20000);
 
+
+// Fade Intro in
   setTimeout(() => {
     document.getElementById("introSection").style.opacity = 1;
   }, 2000);
 
+// Fade Main Section in 
   setTimeout(() => {
     document.getElementById("mainSection").style.opacity = 1;
   }, 5000);
-
-  // if(n === 0){
-  //   n=1;
-  // }
-  // else{
-  //   n=0;
-  // }
-
-  // return n;
 }
 
+// Flips my head on button mouseover
 function flipImage() {
   if (event.target.id === "resumeButton") {
     document.getElementById("resumeButton").style =
@@ -86,6 +89,8 @@ function flipImage() {
   }
 }
 
+
+// Opens Dialogwrapper and the Dialog pane, sets zindex, hides Details
 function openDialog(ev) {
   var element = document.getElementById("dialogWrapper");
   element.style.zIndex = 99;
@@ -99,6 +104,9 @@ function openDialog(ev) {
   dialog.style.zIndex = 100;
   dialog.style.opacity = 1;
 }
+
+
+// Opens Dialogwrapper and the Details pane, sets zindex, hides Dialog
 function openDetails(ev) {
   var child1 = document.getElementById("child1");
   var child2 = document.getElementById("child2");
@@ -120,6 +128,8 @@ function openDetails(ev) {
   var dialog = document.getElementById("dialog");
   dialog.style.visibility = "hidden";
   console.log(ev.target.id);
+
+  // Injects data depending on which View Details button is clicked
   if (ev.target.id === "mappingDetails") {
     child2.style.display = "none";
     child1.style.display = "block";
@@ -169,6 +179,8 @@ function openDetails(ev) {
     child6.style.display = "block";
   }
 }
+
+// Clears the Dialog/Details/DialogWrapper on close click
 function clearDialog() {
   var element = document.getElementById("dialogWrapper");
 
