@@ -119,7 +119,7 @@ function openDetails(ev){
   
   var dialog = document.getElementById('dialog');
   dialog.style.visibility = "hidden";
-
+console.log(ev.target.id);
   if(ev.target.id === "insuredDetails"){
     child1.style.visibility = "hidden";
     child2.style.visibility = "visible";
