@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
   }, 3000);
   setTimeout(() => {
     document.getElementById('myName').style="color: #003399";
-  }, 4500);
+  }, 4000);
 
 
 });
