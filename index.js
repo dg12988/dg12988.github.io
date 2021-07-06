@@ -3,9 +3,20 @@
 // Listens for load, changes main banner size to trigger transition
 window.addEventListener("load", function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;";
+  
   let n = 0;
   let ev = null;
   toggleCards(n, ev);
+
+  // animation for my name
+  setTimeout(() => {
+    document.getElementById('myName').style="background-color: #3988c1";
+  }, 3000);
+  setTimeout(() => {
+    document.getElementById('myName').style="background-color: #003399";
+  }, 6000);
+
+
 });
 
 function toggleCards(n, ev) {
