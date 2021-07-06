@@ -156,6 +156,8 @@ font-family: "Roboto", sans-serif;
   border-radius: 5px;
   padding: 10px;
 
+  display: inline;
+
 }
 #contactButton {
   border: none;
