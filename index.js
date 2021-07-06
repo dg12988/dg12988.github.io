@@ -57,7 +57,7 @@ setInterval(() => {
 
     
      
-    }, 500);    
+    }, 2000);    
 
 setTimeout(() => {
 
