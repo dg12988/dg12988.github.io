@@ -138,7 +138,7 @@ function openDetails(ev) {
 
   var dialog = document.getElementById("dialog");
   dialog.style.visibility = "hidden";
-  console.log(ev.target.id);
+
 
   // Injects data depending on which View Details button is clicked
   if (ev.target.id === "mappingDetails") {
