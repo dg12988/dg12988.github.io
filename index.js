@@ -1,7 +1,7 @@
 window.addEventListener('load', function () {
   document.getElementById("mainBanner").style = "width: 750px;height: 75px;"
   let n=0;
-  toggleCards(n);
+  toggleCards(n, ev);
 
    
 })
