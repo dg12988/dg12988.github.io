@@ -1,3 +1,4 @@
+<!-- Portfolio Site for Doug Goldberg -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,6 +7,7 @@
     <script src="index.js"></script>
     <title>Development Portfolio | Doug Goldberg</title>
 
+    <!-- Link Declarations -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,18 +22,17 @@
     />
   </head>
   <body>
-   
-
-
+   <!-- Using Flexbox and Grid | See styles.css -->
+    <!-- Wrapper around both Dialog and Details, Fills window -->
     <div id="dialogWrapper">
       <div class="row">
         <div class="column">
           <button class="closeButton" onclick="clearDialog()">X</button>
         </div>
       </div>
+      <!-- Dialog box for Contact Me Form -->
       <div id="dialog" class="contactStyle">
-       
-        <div class="row">
+          <div class="row">
           <div class="column">
             <img
             src="https://dg12988.github.io/assets/DougHead.png"
@@ -45,7 +46,8 @@
             </div>
         <div class="row">
           <div class="column">
-  <div class="contactStyle">
+      <!-- Begin Form | Using formspree due to GitHub pages dissallowing PHP email servers-->
+       <div class="contactStyle">
             <form
             action="https://formspree.io/f/xdoydjoe"
             method="POST"
@@ -56,22 +58,23 @@
             <label>
               <textarea name="message" placeholder="Type your Message" required></textarea>
             </label>
-          
-              
             <button type="submit">Send</button>
           </form>
         </div>
           </div>
         </div>
-        
-        
+              
       </div>
+      
+      <!-- Details Card on top of DialogWrapper | Displays when Portfolio Thumbnail button is clicked-->
       <div id="details">
         <div class="row">
           <div class="column">
 
           </div>
         </div>
+
+        <!-- Mapping Data -->
         <div id="child1"  style="display:none;">
           <div class="row" style="background-color: white;" >
             <div class="column" style="justify-content: center;background-color: white;">
@@ -91,6 +94,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Insured Data -->
         <div id="child2" style="display:none;">
           <div class="row" style="background-color: white;">
             <div class="column" style="justify-content: center;background-color: white;">
@@ -110,6 +115,8 @@
             </div>
           </div>
         </div>
+        
+        <!-- Adjuster Data -->
         <div id="child3"  style="display:none;">
               
         <div class="row" style="background-color: white;">
@@ -130,6 +137,8 @@
           </div>
         </div>
       </div>
+      
+     <!-- HA Site Data -->
       <div id="child4"  style="display:none;">
         <div class="row" style="background-color: white;" >
           <div class="column" style="justify-content: center;background-color: white;">
@@ -149,6 +158,8 @@
           </div>
         </div>
       </div>
+
+      <!-- This Site Data -->
       <div id="child5"  style="display:none;">
         <div class="row" style="background-color: white;" >
           <div class="column" style="justify-content: center;background-color: white;">
@@ -167,6 +178,8 @@
                       </div>
         </div>
       </div>
+     
+      <!-- Sealcoat Data -->
       <div id="child6"  style="display:none;">
         <div class="row" style="background-color: white;" >
           <div class="column" style="justify-content: center;background-color: white;">
@@ -191,10 +204,9 @@
 
   
 
-
+<!-- Main Section -->
 <main>
- 
-  <div class="row">
+   <div class="row">
     <div style="opacity: 0;transition: opacity 2s ease;" id="introSection">
     <div class="column _4">
       <div type="module" class="flexChild">
@@ -226,6 +238,8 @@
       </div>
     </div>
     </div>
+
+    <!-- Main Hero Image -->
     <div class="column _6">
       <div class="flexChild">
         <img
@@ -241,7 +255,7 @@
   <div style="opacity: 0;transition: opacity 2s ease;" id="mainSection">
   <div class="row">
     <div class="column">
-        
+     <!-- Social Media Bar -->
     <div class="flexChildCenter">
       <a href="https://www.linkedin.com/in/doug-goldberg/" target="_blank">
         <img
@@ -284,6 +298,7 @@
     </div>
     <div class="row">
       <div class="column">
+        <!-- Contact Section -->
         <div class="flexChildCenter">
           <button
             id="contactButton"
@@ -317,14 +332,8 @@
         <div class="column">
         </div>
       </div>
-<!-- <div class="row">
-  <div class="column">
-     <a class="portfolioTitle" onclick="toggleCards(event)">WebApps</a>
-  </div>
-  <div class="column">
-    <a class="portfolioTitle" onclick="toggleCards(event)">Websites</a>
-</div>
-</div>       -->
+
+      <!-- Card Declaration -->
    <div class="row" id="cards" >
 
     <div class="column" id="card1">
@@ -504,131 +513,6 @@
     </div>
 
   </div>
-
-  
-  <!-- <div class="row">
-    <div class="column _25">
-      Twenty-five Percent
-    </div>
-    <div class="column _5">
-      Fifty Percent
-    </div>
-    <div class="column _25">
-      Twenty-five Percent
-    </div>
-  </div> -->
-</main>
-
-
- 
-
-
-    <!-- <div class="flexChild">
-      <h2 style="text-align: center;">WebApps Portfolio</h2>
-        <div >
-          <p class="sectionHead">Mapping Assignment Tool</p>
-          <img
-          src="https://dg12988.github.io/assets/mapping1.png"
-         width="25%;"
-          alt="thisSiteBanner"
-          id="thisSiteBanner" 
-                   
-          />
-          <p class="appBlurb">Enterprise Software used by Claims Managers to assign claims to Insurance Adjusters via multiple methods, including a Google Map. <br>In the process of development and deployement for this project, I served as Project Manager, as well as the sole Front End Developer.  <br>The skills utilized for this project are, but not limited to: Angular 7, Angular Google Maps API, Angular Material, Typescript, HTML, CSS and The Marker-Clusterer Library.</p>
-          <img
-          src="https://dg12988.github.io/assets/mapping2.png"
-          height="500px;"
-          alt="thisSiteBanner"
-          id="thisSiteBanner" 
-                   
-          />
-         
-       </div>
-       <div class="flexItem">
-        <p class="sectionHead">Insured's Portal</p>
-        <p class="appBlurb">Software focused toward engagement with the end user, in this case the Insured. <br> This application allows the Insured to access important information about their Claim, Policy, and the Adjuster who will be working their claim.  <br> Via connection with UScope's PhotoID app, we've added the ability for the Insured to connect directly with the Adjuster via Remote connection. This allows incorporates AI, CoreLogic, to identify Damages automatically.  <br> Additionally, this application allows a user to fill out their Personal Property damages. This data is automatically loaded, saved, and stored within the server without any manipulation by the user.  <br> This is achieved by opening a connection to the server via HttpClient, converting the data from an HTML Table to an XLSX file, and then perform a get/put to/from the server. <br>The skills utilized for this project are, but not limited to: Angular 10, PhotoID App, Angular Material, Typescript, HTML, CSS and the SheetJS library.</p>
-        <img
-        src="https://dg12988.github.io/assets/insuredP1.png"
-        height="500px;"
-        alt="thisSiteBanner"
-        id="thisSiteBanner" 
-                 
-        />
-        <img
-        src="https://dg12988.github.io/assets/insuredP2.png"
-        height="500px;"
-        alt="thisSiteBanner"
-        id="thisSiteBanner" 
-                 
-        />
-      </div>
-       <div class="flexItem">
-        <p class="sectionHead">Adjuster's Portal</p>
-        <img
-        src="https://dg12988.github.io/assets/planner1.png"
-        height="500px;"
-        alt="thisSiteBanner"
-        id="thisSiteBanner" 
-                 
-        />
-        <img
-        src="https://dg12988.github.io/assets/planner2.png"
-        height="500px;"
-        alt="thisSiteBanner"
-        id="thisSiteBanner" 
-                 
-        />
-        <p class="appBlurb">Web application designed to benefit the Adjuster in planning and routing their stops for the day. <br> The user can select a date from the calendar, and, using mat-tab-group, the application will automatically pane to the next tab. <br> This tab contains the claims available to route for the day. From this window, the user will select the claims they want to route. <br> On the final tab, the data points are sent to Google via Google Geolocation and Routing APIs, then plotted to a Angular Google Map.  <br>On the other side, an Angular Material Drag and Drop is utlized so that the user may change the automatic routing if they wish. <br> Finally, this page may be printed, or sent to a live Google map, allowing for added stops, more features, and a more robust map. <br> The skills utilized for this project are, but not limited to: Angular 7, Angular Google Maps API, Google Geolocation API, Google Routing API, Angular Material, Typescript, HTML, CSS and The Marker-Clusterer Library.</p>  </p>
-       </div>
-    </div>
-    <div class="break"></div> -->
-    <!-- break -->
-    <!-- <div class="flexChild">
-      <h2>Websites, Wordpress, and More</h2>
-        <div class="flexItem">
-          <p>This Site!</p>
-          <img
-          src="https://dg12988.github.io/assets/thisSiteBanner.png"
-          height="100px;"
-          alt="thisSiteBanner"
-          id="thisSiteBanner"          
-          />
-       </div>
-       <div class="flexItem">
-        <p>Sealcoating Site</p>
-        <img
-        src="https://dg12988.github.io/assets/sealcoatBanner.png"
-        height="100px;"
-        alt="sealcoatBanner"
-        id="sealcoatBanner"          
-        />
-       </div>
-       <div class="flexItem">
-        <p>Hearing Aid Site 1</p>
-        <img
-        src="https://dg12988.github.io/assets/haSite1.png"
-        height="100px;"
-        alt="haSite1"
-        id="haSite1"          
-        />
-        <p>Hearing Aid Site 2</p>
-        <img
-        src="https://dg12988.github.io/assets/DougHead.png"
-        height="100px;"
-        alt="DougThumbnail"
-        id="DougThumbnail"          
-        />
-       </div>
-       <div class="flexItem">
-        <p>Landscaping Site</p>
-        <img
-        src="https://dg12988.github.io/assets/LOGOEGS.png"
-        height="100px;"
-        alt="LOGOEGS"
-        id="LOGOEGS"          
-        />
-       </div>
-    </div> -->
-
-   </body>
+  </main>
+ </body>
 </html>
