@@ -242,7 +242,9 @@ code {
   text-align: center;
 
 }
-
+.portfolioTitle{
+  text-align: center;
+}
 .bounce:hover{
     animation: bounce 1.5s ease-out;
 }
