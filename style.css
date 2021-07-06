@@ -115,6 +115,12 @@ a {
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+}
+.underPortfolioButtons:hover{
+  background-color: #003399;
 }
 p {
   color: #676668;
