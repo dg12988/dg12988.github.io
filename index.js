@@ -10,10 +10,10 @@ window.addEventListener("load", function () {
 
   // animation for my name
   setTimeout(() => {
-    document.getElementById('myName').style="background-color: #3988c1";
+    document.getElementById('myName').style="color: #3988c1";
   }, 3000);
   setTimeout(() => {
-    document.getElementById('myName').style="background-color: #003399";
+    document.getElementById('myName').style="color: #003399";
   }, 6000);
 
 
