@@ -173,7 +173,7 @@ function openDetails(ev) {
     child5.style.display = "none";
     child6.style.display = "none";
   }
-  if (ev.target.id === "portDetails") {
+  if (ev.target.id === "siteDetails") {
     child1.style.display = "none";
     child2.style.display = "none";
     child3.style.display = "none";
